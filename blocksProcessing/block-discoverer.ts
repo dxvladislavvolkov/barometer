@@ -10,10 +10,13 @@ import {
     ModuleDeclaration,
     Identifier,
     Pattern,
-    Property
+    Property,
+    FunctionDeclaration,
+    CallExpression
 } from "estree";
 
 type INode = (Statement | Expression | ModuleDeclaration | Property | Pattern);
+
 interface IBlockEntry {
     name: string;
     node: INode;
@@ -57,6 +60,25 @@ class Discoverer {
     private processEntry(entry: IBlockEntry): void {
         switch (entry.node.type) {
 
+            // target blocks
+            case "FunctionDeclaration":
+                const id = (entry.node as FunctionDeclaration).id;
+                this._blocks.push({
+                    name: id ? id.name : "UNKNOWN_FUNC",
+                    startLine: (entry.node as FunctionDeclaration).loc.start.line,
+                    endLine: (entry.node as FunctionDeclaration).loc.end.line
+                });
+                return;
+
+            case "FunctionExpression":
+                this._blocks.push({
+                    name: entry.name,
+                    startLine: (entry.node as FunctionExpression).loc.start.line,
+                    endLine: (entry.node as FunctionExpression).loc.end.line
+                });
+                return;
+
+            // containers
             case "VariableDeclaration":
                 this.processEntries(
                     (entry.node as VariableDeclaration).declarations,
@@ -73,12 +95,14 @@ class Discoverer {
                 );
                 return;
 
-            case "FunctionExpression":
-                this._blocks.push({
-                    name: entry.name,
-                    startLine: (entry.node as FunctionExpression).loc.start.line,
-                    endLine: (entry.node as FunctionExpression).loc.end.line
-                });
+            case "CallExpression":
+                (entry.node as CallExpression).arguments
+                    .filter(a => a.type !== "SpreadElement")
+                    .map(node => ({
+                        name: undefined, // no names for arguments
+                        node: node as Expression
+                    }))
+                    .forEach(this.processEntry)
                 return;
         }
     }
