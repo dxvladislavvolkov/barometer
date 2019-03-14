@@ -5,11 +5,6 @@ export const navigation = [
     icon: 'home'
   },
   {
-    text: 'Home2',
-    path: '/home2',
-    icon: 'home'
-  },
-  {
     text: 'Home3',
     path: '/home3',
     icon: 'home'

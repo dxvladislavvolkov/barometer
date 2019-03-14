@@ -6,24 +6,27 @@ import DataSource from "devextreme/ui/pivot_grid/data_source";
 
 import {
   DxPivotGridComponent,
-  DxChartComponent } from 'devextreme-angular';
+  DxChartComponent
+} from 'devextreme-angular';
 
 @Component({
   templateUrl: 'display-data.component.html'
 })
 
 export class DisplayDataComponent {
-  
+
   @ViewChild(DxPivotGridComponent) pivotGrid: DxPivotGridComponent;
   @ViewChild(DxChartComponent) chart: DxChartComponent;
   dataSource: any;
   minValue: number;
   maxValue: number;
 
+  sliderValue = 30;
+
   constructor(service: Service) {
     service.getCommits().subscribe((data) => {
       const fileNames = Object.keys(data);
- 
+
       const dataItems = [];
       let maxIndex = 1;
       fileNames.forEach((fileName: string) => {
@@ -50,7 +53,7 @@ export class DisplayDataComponent {
 
       // this.startDate = new Date(Math.min.apply(null, res.map(item => new Date(item.date))));
       // this.endDate = new Date(Math.max.apply(null, res.map(item => new Date(item.date))));
- 
+
       const fields = [];
       for (let i = 1; i < maxIndex; i++) {
         fields.push({
@@ -74,12 +77,13 @@ export class DisplayDataComponent {
         }
       );
 
-      this.dataSource = new DataSource( {
+      this.dataSource = new DataSource({
         fields,
         store: dataItems.map(item => Object.assign({
           commits: 1,
           changes: item.additions + item.deleteons
-        }, item))
+        }, item)),
+        filter: ["totalCommits", ">", this.sliderValue]
       });
     });
   }
@@ -89,12 +93,6 @@ export class DisplayDataComponent {
       dataFieldsDisplayMode: "splitPanes",
       alternateDataFields: false
     });
-
-    setTimeout(() => {
-        var dataSource = this.pivotGrid.instance.getDataSource();
-        dataSource.expandHeaderItem('row', ['North America']);
-        dataSource.expandHeaderItem('column', [2013]);
-    }, 0);
   }
 
   customizeTooltip(args) {
@@ -102,7 +100,7 @@ export class DisplayDataComponent {
       html: args.seriesName + " | Total<div class='currency'>" + args.valueText + "</div>"
     };
   }
-  
+
   slideChanged(args) {
     this.dataSource.filter(["totalCommits", ">", args.value]);
     this.dataSource.reload();
@@ -113,11 +111,11 @@ export class DisplayDataComponent {
 
     if (cell.value) {
       const color = 1 - (cell.value - this.minValue) / (this.maxValue - this.minValue);
-      cellElement.style.backgroundColor = `rgb(${color * 255}, 255, 255)`;
+      cellElement.style.backgroundColor = `rgb(255, ${color * 100 + 155}, ${color * 100 + 155})`;
 
-      
+
       cellElement.addEventListener("click", () => {
-          window.open(`https://github.com/angular/angular/commits/19_1/${cell.rowPath.join('/')}`, '_blank')
+        window.open(`https://github.com/angular/angular/commits/19_1/${cell.rowPath.join('/')}`, '_blank')
       });
     }
   }
