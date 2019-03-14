@@ -62,7 +62,7 @@ module.exports = () => {
                     const parseTitle = commit.message.match(/\(#(\d+)\)/);
                     const prId = parseTitle && parseTitle[1];
                     const pullData = pullsRegistry[prId];
-                    const pull;
+                    let pull;
 
                     if(pullData) {
                         pull = {
