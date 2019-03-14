@@ -5,6 +5,7 @@ import { AuthGuardService } from './shared/services';
 import { HomeComponent } from './pages/home/home.component';
 import { DisplayDataComponent } from './pages/display-data/display-data.component';
 import { DxPivotGridModule } from 'devextreme-angular/ui/pivot-grid';
+import { DxRangeSelectorModule } from 'devextreme-angular/ui/range-selector';
 import { Service as CommitsService } from './pages/display-data/commits.service';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -27,7 +28,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes), DxPivotGridModule, HttpClientModule],
+  imports: [RouterModule.forRoot(routes), DxPivotGridModule, DxRangeSelectorModule, HttpClientModule],
   providers: [AuthGuardService, CommitsService],
   exports: [RouterModule],
   declarations: [HomeComponent, DisplayDataComponent]

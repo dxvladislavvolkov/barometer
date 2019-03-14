@@ -10,49 +10,76 @@ export class DisplayDataComponent {
   minValue: number;
   maxValue: number;
 
+  minDate: Date;
+  maxDate: Date;
+
+  startDate: Date;
+  endDate: Date;
+
+  selectedMinDate: Date
+
   constructor(service: Service) {
-    service.getCommits().subscribe(({ data }) => {
-      this.minValue = Math.min(...data.map(item => item.amount));
-      this.maxValue = Math.max(...data.map(item => item.amount));
+    service.getCommits().subscribe((data) => {
+      const fileNames = Object.keys(data);
+
+      const res = [];
+      let maxIndex = 1;
+      fileNames.forEach((fileName) => {
+        const commitInfo = data[fileName];
+        const folderNames = fileName.split('/');
+        let index = 0;
+        const folderObject = folderNames.reduce((acc, item) => {
+          index++;
+          maxIndex = Math.max(index, maxIndex);
+          acc[`folder${index}`] = item;
+
+          return acc;
+        }, {});
+
+        res.push(...commitInfo.map(item => Object.assign(folderObject, item)));
+      })
+
+      this.minValue = 0;//Math.min(...data.map(item => item.amount));
+      this.maxValue = 1000; // Math.max(...data.map(item => item.amount));
+
+      this.startDate = new Date(Math.min.apply(null, res.map(item => new Date(item.date))));
+      this.endDate = new Date(Math.max.apply(null, res.map(item => new Date(item.date))));
+
+      const fields = [];
+      for (let i = 1; i < maxIndex; i++) {
+        fields.push({
+          caption: 'Folder',
+          dataField: `folder${i}`,
+          area: 'row'
+        });
+      }
+      fields.push(
+        { area: "column", dataField: "date", dataType: "date", groupInterval: "year" },
+        { area: "column", dataField: "date", dataType: "date", groupInterval: "quarter" },
+        { area: "column", dataField: "date", dataType: "date", groupInterval: "month" },
+        { area: "column", dataField: "date", dataType: "date", groupInterval: "day" },
+
+        {
+          caption: 'Commits',
+          dataField: 'changes',
+          dataType: 'number',
+          summaryType: "sum",
+          area: 'data'
+        }
+      );
 
       this.dataSource = {
-        fields: [{
-          caption: 'Folder/File',
-          width: 120,
-          dataField: 'region',
-          area: 'row'
-        }, {
-          caption: 'City',
-          dataField: 'city',
-          width: 150,
-          area: 'row',
-          selector: this.citySelector
-        }, {
-          dataField: 'date',
-          dataType: 'date',
-          area: 'column'
-        }, {
-          caption: 'Commits',
-          dataField: 'amount',
-          dataType: 'number',
-          summaryType: 'sum',
-          format: 'currency',
-          area: 'data'
-        }],
-        store: data
+        fields,
+        store: res
       }
     });
-  }
-
-  citySelector(data) {
-    return data.city + ' (' + data.country + ')';
   }
 
   cellPrepared(args) {
     const { cell, cellElement } = args;
 
     if (cell.value) {
-      const color = (cell.value - this.minValue) / (this.maxValue - this.minValue);
+      const color = 1 - (cell.value - this.minValue) / (this.maxValue - this.minValue);
       cellElement.style.backgroundColor = `rgb(${color * 255}, 255, 255)`;
     }
   }

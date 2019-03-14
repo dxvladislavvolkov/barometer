@@ -1,13 +1,21 @@
 <h2 class="content-block">Commits Data</h2>
 
-<dx-pivot-grid
-  [allowSortingBySummary]="true"
-  [allowSorting]="true"
-  [allowFiltering]="true"
-  [allowExpandAll]="true"
-  rowHeaderLayout="tree"
-  [showBorders]="true"
-  [dataSource]="dataSource"
-  (onCellPrepared)="cellPrepared($event)">
-  <dxo-field-chooser [enabled]="false"></dxo-field-chooser>
+<dx-range-selector [value]="[minDate, maxDate]" title="Select a Period" onValueChanged>
+    <dxo-margin [top]="50"></dxo-margin>
+    <dxo-size [height]="250"></dxo-size>
+    <dxo-scale [startValue]="startDate" [endValue]="endDate" minorTickInterval="day" tickInterval="week" minRange="week"
+        maxRange="month">
+        <dxo-minor-tick [visible]="false"></dxo-minor-tick>
+    </dxo-scale>
+    <dxo-slider-marker format="monthAndDay"></dxo-slider-marker>
+</dx-range-selector>
+
+<dx-pivot-grid [allowSortingBySummary]="true" [allowSorting]="true" [allowFiltering]="true" [allowExpandAll]="true"
+    rowHeaderLayout="tree" [showBorders]="true" [dataSource]="dataSource" (onCellPrepared)="cellPrepared($event)">
+    <dxo-field-chooser [enabled]="false"></dxo-field-chooser>
+
+    <dxo-field-panel [showDataFields]="showDataFields" [showRowFields]="showRowFields"
+        [showColumnFields]="showColumnFields" [showFilterFields]="showFilterFields" [allowFieldDragging]="true"
+        [visible]="true">
+    </dxo-field-panel>
 </dx-pivot-grid>
