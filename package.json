@@ -1,0 +1,23 @@
+{
+  "name": "barometer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "simple-git": "^1.107.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightskylark/barometer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nightskylark/barometer/issues"
+  },
+  "homepage": "https://github.com/nightskylark/barometer#readme"
+}
