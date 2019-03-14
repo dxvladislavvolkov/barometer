@@ -1,0 +1,365 @@
+{
+  "fileLinesCount": 1006,
+  "blocksLinesCount": 815,
+  "blocks": [
+    {
+      "name": "_supportedKeys",
+      "startLine": 83,
+      "endLine": 85
+    },
+    {
+      "name": "_getDefaultOptions",
+      "startLine": 87,
+      "endLine": 225
+    },
+    {
+      "name": "_init",
+      "startLine": 230,
+      "endLine": 237
+    },
+    {
+      "name": "_initTemplates",
+      "startLine": 239,
+      "endLine": 242
+    },
+    {
+      "name": "_clearInnerOptionCache",
+      "startLine": 244,
+      "endLine": 246
+    },
+    {
+      "name": "_cacheInnerOptions",
+      "startLine": 248,
+      "endLine": 251
+    },
+    {
+      "name": "_getInnerOptionsCache",
+      "startLine": 253,
+      "endLine": 255
+    },
+    {
+      "name": "_initInnerOptionCache",
+      "startLine": 257,
+      "endLine": 260
+    },
+    {
+      "name": "_bindInnerWidgetOptions",
+      "startLine": 262,
+      "endLine": 267
+    },
+    {
+      "name": "_extractTemplates",
+      "startLine": 269,
+      "endLine": 297
+    },
+    {
+      "name": "_findTemplateByDevice",
+      "startLine": 299,
+      "endLine": 311
+    },
+    {
+      "name": "_extractAnonymousTemplate",
+      "startLine": 313,
+      "endLine": 329
+    },
+    {
+      "name": "_getAriaTarget",
+      "startLine": 331,
+      "endLine": 333
+    },
+    {
+      "name": "_getAnonymousTemplateName",
+      "startLine": 335,
+      "endLine": 337
+    },
+    {
+      "name": "_getTemplateByOption",
+      "startLine": 339,
+      "endLine": 341
+    },
+    {
+      "name": "_getTemplate",
+      "startLine": 343,
+      "endLine": 370
+    },
+    {
+      "name": "_acquireTemplate",
+      "startLine": 372,
+      "endLine": 401
+    },
+    {
+      "name": "_renderIntegrationTemplate",
+      "startLine": 414,
+      "endLine": 425
+    },
+    {
+      "name": "_createTemplateIfNeeded",
+      "startLine": 427,
+      "endLine": 441
+    },
+    {
+      "name": "_createTemplate",
+      "startLine": 443,
+      "endLine": 446
+    },
+    {
+      "name": "_getNormalizedTemplateArgs",
+      "startLine": 448,
+      "endLine": 460
+    },
+    {
+      "name": "_cleanTemplates",
+      "startLine": 462,
+      "endLine": 467
+    },
+    {
+      "name": "_initContentReadyAction",
+      "startLine": 469,
+      "endLine": 473
+    },
+    {
+      "name": "_initMarkup",
+      "startLine": 475,
+      "endLine": 488
+    },
+    {
+      "name": "_render",
+      "startLine": 490,
+      "endLine": 497
+    },
+    {
+      "name": "_renderHint",
+      "startLine": 499,
+      "endLine": 501
+    },
+    {
+      "name": "_renderContent",
+      "startLine": 503,
+      "endLine": 509
+    },
+    {
+      "startLine": 513,
+      "endLine": 515
+    },
+    {
+      "name": "_dispose",
+      "startLine": 517,
+      "endLine": 522
+    },
+    {
+      "name": "_resetActiveState",
+      "startLine": 524,
+      "endLine": 526
+    },
+    {
+      "name": "_clean",
+      "startLine": 528,
+      "endLine": 533
+    },
+    {
+      "name": "_toggleVisibility",
+      "startLine": 535,
+      "endLine": 538
+    },
+    {
+      "name": "_renderFocusState",
+      "startLine": 540,
+      "endLine": 550
+    },
+    {
+      "name": "_renderAccessKey",
+      "startLine": 552,
+      "endLine": 566
+    },
+    {
+      "name": "_isFocusable",
+      "startLine": 568,
+      "endLine": 570
+    },
+    {
+      "name": "_eventBindingTarget",
+      "startLine": 572,
+      "endLine": 574
+    },
+    {
+      "name": "_focusTarget",
+      "startLine": 576,
+      "endLine": 578
+    },
+    {
+      "name": "_getActiveElement",
+      "startLine": 580,
+      "endLine": 590
+    },
+    {
+      "name": "_renderFocusTarget",
+      "startLine": 592,
+      "endLine": 594
+    },
+    {
+      "name": "_keyboardEventBindingTarget",
+      "startLine": 596,
+      "endLine": 598
+    },
+    {
+      "name": "_detachFocusEvents",
+      "startLine": 600,
+      "endLine": 612
+    },
+    {
+      "name": "_attachFocusEvents",
+      "startLine": 614,
+      "endLine": 632
+    },
+    {
+      "name": "_refreshFocusEvent",
+      "startLine": 634,
+      "endLine": 637
+    },
+    {
+      "name": "_focusInHandler",
+      "startLine": 639,
+      "endLine": 648
+    },
+    {
+      "name": "_focusOutHandler",
+      "startLine": 650,
+      "endLine": 659
+    },
+    {
+      "name": "_updateFocusState",
+      "startLine": 661,
+      "endLine": 667
+    },
+    {
+      "name": "_toggleFocusClass",
+      "startLine": 669,
+      "endLine": 672
+    },
+    {
+      "name": "_hasFocusClass",
+      "startLine": 674,
+      "endLine": 677
+    },
+    {
+      "name": "_isFocused",
+      "startLine": 679,
+      "endLine": 681
+    },
+    {
+      "name": "_attachKeyboardEvents",
+      "startLine": 683,
+      "endLine": 696
+    },
+    {
+      "name": "_keyboardHandler",
+      "startLine": 698,
+      "endLine": 712
+    },
+    {
+      "name": "_refreshFocusState",
+      "startLine": 714,
+      "endLine": 717
+    },
+    {
+      "name": "_cleanFocusState",
+      "startLine": 719,
+      "endLine": 728
+    },
+    {
+      "name": "_disposeKeyboardProcessor",
+      "startLine": 730,
+      "endLine": 735
+    },
+    {
+      "name": "_attachHoverEvents",
+      "startLine": 737,
+      "endLine": 769
+    },
+    {
+      "name": "_attachFeedbackEvents",
+      "startLine": 775,
+      "endLine": 812
+    },
+    {
+      "name": "_toggleActiveState",
+      "startLine": 814,
+      "endLine": 817
+    },
+    {
+      "name": "_refreshHoveredElement",
+      "startLine": 819,
+      "endLine": 824
+    },
+    {
+      "name": "_forgetHoveredElement",
+      "startLine": 826,
+      "endLine": 829
+    },
+    {
+      "name": "_toggleHoverClass",
+      "startLine": 831,
+      "endLine": 835
+    },
+    {
+      "name": "_toggleDisabledState",
+      "startLine": 837,
+      "endLine": 841
+    },
+    {
+      "name": "_setWidgetOption",
+      "startLine": 843,
+      "endLine": 864
+    },
+    {
+      "name": "_optionChanged",
+      "startLine": 866,
+      "endLine": 906
+    },
+    {
+      "name": "_isVisible",
+      "startLine": 908,
+      "endLine": 910
+    },
+    {
+      "name": "beginUpdate",
+      "startLine": 912,
+      "endLine": 915
+    },
+    {
+      "name": "endUpdate",
+      "startLine": 917,
+      "endLine": 923
+    },
+    {
+      "name": "_ready",
+      "startLine": 925,
+      "endLine": 932
+    },
+    {
+      "name": "setAria",
+      "startLine": 934,
+      "endLine": 965
+    },
+    {
+      "name": "isReady",
+      "startLine": 967,
+      "endLine": 969
+    },
+    {
+      "name": "repaint",
+      "startLine": 975,
+      "endLine": 977
+    },
+    {
+      "name": "focus",
+      "startLine": 983,
+      "endLine": 985
+    },
+    {
+      "name": "registerKeyHandler",
+      "startLine": 993,
+      "endLine": 1002
+    }
+  ]
+}
