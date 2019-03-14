@@ -4500,7 +4500,7 @@ let sales: CommitInfo[] = [{
 
 @Injectable()
 export class Service {
-    getSales() {
+    getCommits() {
         return sales;
     }
 }

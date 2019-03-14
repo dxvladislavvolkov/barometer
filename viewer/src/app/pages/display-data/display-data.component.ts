@@ -6,10 +6,15 @@ import { Service, CommitInfo } from './commits.service';
 })
 
 export class DisplayDataComponent {
-  sales: CommitInfo[];
   dataSource: any;
+  minValue: number;
+  maxValue: number;
 
   constructor(service: Service) {
+    const commits = service.getCommits();
+    this.minValue = Math.min(...commits.map(item => item.amount));
+    this.maxValue = Math.max(...commits.map(item => item.amount));
+
     this.dataSource = {
       fields: [{
         caption: 'Region',
@@ -34,11 +39,21 @@ export class DisplayDataComponent {
         format: 'currency',
         area: 'data'
       }],
-      store: service.getSales()
+      store: commits
     }
   }
 
   citySelector(data) {
     return data.city + ' (' + data.country + ')';
+  }
+
+  cellPrepared(args) {
+    const { cell, cellElement } = args;
+
+    if (cell.value) {
+      const color = (cell.value - this.minValue) / (this.maxValue - this.minValue);
+      console.log(color)
+      cellElement.style.backgroundColor = `rgb(${color * 255}, 255, 255)`; 
+    }
   }
 }
