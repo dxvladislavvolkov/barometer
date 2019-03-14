@@ -6,7 +6,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { DisplayDataComponent } from './pages/display-data/display-data.component';
 import { DxPivotGridModule } from 'devextreme-angular/ui/pivot-grid';
 import { Service as CommitsService } from './pages/display-data/commits.service';
-
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [
   {
@@ -27,7 +27,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes), DxPivotGridModule],
+  imports: [RouterModule.forRoot(routes), DxPivotGridModule, HttpClientModule],
   providers: [AuthGuardService, CommitsService],
   exports: [RouterModule],
   declarations: [HomeComponent, DisplayDataComponent]

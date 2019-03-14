@@ -11,36 +11,37 @@ export class DisplayDataComponent {
   maxValue: number;
 
   constructor(service: Service) {
-    const commits = service.getCommits();
-    this.minValue = Math.min(...commits.map(item => item.changes));
-    this.maxValue = Math.max(...commits.map(item => item.changes));
+    service.getCommits().subscribe(({ data }) => {
+      this.minValue = Math.min(...data.map(item => item.amount));
+      this.maxValue = Math.max(...data.map(item => item.amount));
 
-    this.dataSource = {
-      fields: [{
-        caption: 'Folder/File',
-        width: 120,
-        dataField: 'file',
-        area: 'row'
-      }, {
-        caption: 'City',
-        dataField: 'city',
-        width: 150,
-        area: 'row',
-        selector: this.citySelector
-      }, {
-        dataField: 'date',
-        dataType: 'date',
-        area: 'column'
-      }, {
-        caption: 'Commits',
-        dataField: 'changes',
-        dataType: 'number',
-        summaryType: 'sum',
-        format: 'currency',
-        area: 'data'
-      }],
-      store: commits
-    }
+      this.dataSource = {
+        fields: [{
+          caption: 'Folder/File',
+          width: 120,
+          dataField: 'region',
+          area: 'row'
+        }, {
+          caption: 'City',
+          dataField: 'city',
+          width: 150,
+          area: 'row',
+          selector: this.citySelector
+        }, {
+          dataField: 'date',
+          dataType: 'date',
+          area: 'column'
+        }, {
+          caption: 'Commits',
+          dataField: 'amount',
+          dataType: 'number',
+          summaryType: 'sum',
+          format: 'currency',
+          area: 'data'
+        }],
+        store: data
+      }
+    });
   }
 
   citySelector(data) {
@@ -52,8 +53,7 @@ export class DisplayDataComponent {
 
     if (cell.value) {
       const color = (cell.value - this.minValue) / (this.maxValue - this.minValue);
-      console.log(color)
-      cellElement.style.backgroundColor = `rgb(${color * 255}, 255, 255)`; 
+      cellElement.style.backgroundColor = `rgb(${color * 255}, 255, 255)`;
     }
   }
 }
