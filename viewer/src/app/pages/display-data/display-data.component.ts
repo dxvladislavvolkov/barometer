@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Service, CommitInfo } from './commits.service';
+import { Service } from './commits.service';
 
 @Component({
   templateUrl: 'display-data.component.html'
@@ -12,14 +12,14 @@ export class DisplayDataComponent {
 
   constructor(service: Service) {
     const commits = service.getCommits();
-    this.minValue = Math.min(...commits.map(item => item.amount));
-    this.maxValue = Math.max(...commits.map(item => item.amount));
+    this.minValue = Math.min(...commits.map(item => item.changes));
+    this.maxValue = Math.max(...commits.map(item => item.changes));
 
     this.dataSource = {
       fields: [{
-        caption: 'Region',
+        caption: 'Folder/File',
         width: 120,
-        dataField: 'region',
+        dataField: 'file',
         area: 'row'
       }, {
         caption: 'City',
@@ -32,8 +32,8 @@ export class DisplayDataComponent {
         dataType: 'date',
         area: 'column'
       }, {
-        caption: 'Sales',
-        dataField: 'amount',
+        caption: 'Commits',
+        dataField: 'changes',
         dataType: 'number',
         summaryType: 'sum',
         format: 'currency',
