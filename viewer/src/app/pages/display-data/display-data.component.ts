@@ -31,8 +31,8 @@ export class DisplayDataComponent {
         res.push(...commitInfo.map(item => Object.assign(folderObject, item)));
       })
 
-      this.minValue = 0;//Math.min(...data.map(item => item.amount));
-      this.maxValue = 1000; // Math.max(...data.map(item => item.amount));
+      this.minValue = 0;
+      this.maxValue = res.reduce((acc, item) => acc + item.changes, 0);
 
       // this.startDate = new Date(Math.min.apply(null, res.map(item => new Date(item.date))));
       // this.endDate = new Date(Math.max.apply(null, res.map(item => new Date(item.date))));
