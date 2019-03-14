@@ -15,18 +15,23 @@ module.exports = () => {
         }, (err, result) => {
             async.each(result.all, (commit, callback) => {
                 git.show([ commit.hash ], (err, result) => {
-                    result.replace(/diff --git a\/(\S+)[^\n]*/gm, (_, fileName) => {
+                    const rawCommitFiles = result.split('diff --git a/').splice(1);
+                    rawCommitFiles.forEach((rawFileChanges) => {
+                        const fileName = rawFileChanges.substr(0, rawFileChanges.indexOf(' '));
                         if(!files[fileName]) {
                             files[fileName] = [];
                         }
 
                         const fileCommits = files[fileName];
 
+                        const additions = rawFileChanges.match(/^\+[^+]/gm);
+                        const deleteons = rawFileChanges.match(/^\-[^-]/gm);
                         fileCommits.push({
                             date: commit.date,
-                            changes: 1
+                            additions: additions ? additions.length : 0,
+                            deleteons: deleteons ? deleteons.length : 0
                         });
-                    })
+                    });
                     callback();
                 });
             }, () => {
