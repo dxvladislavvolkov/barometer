@@ -29,7 +29,10 @@ module.exports = () => {
                         fileCommits.push({
                             date: commit.date,
                             additions: additions ? additions.length : 0,
-                            deleteons: deleteons ? deleteons.length : 0
+                            deleteons: deleteons ? deleteons.length : 0,
+                            author: commit.author_name,
+                            email: commit.author_email,
+                            hash: commit.hash
                         });
                     });
                     callback();
