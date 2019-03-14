@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@octokit/rest": "^16.18.0",
     "async": "^2.6.2",
     "simple-git": "^1.107.0"
   },
