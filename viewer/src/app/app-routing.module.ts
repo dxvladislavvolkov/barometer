@@ -9,6 +9,8 @@ import { DisplayDataComponent as DisplayDataComponent3 } from './pages/display-d
 import { DxPivotGridModule } from 'devextreme-angular/ui/pivot-grid';
 import { DxTreeListModule } from 'devextreme-angular/ui/tree-list';
 import { DxChartModule } from 'devextreme-angular/ui/chart';
+import { DxSliderModule } from 'devextreme-angular/ui/slider';
+import { DxTooltipModule } from 'devextreme-angular/ui/tooltip';
 import { Service as CommitsService } from './shared/services/commits.service';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -38,7 +40,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes), DxPivotGridModule, DxTreeListModule, HttpClientModule, DxChartModule],
+  imports: [RouterModule.forRoot(routes), DxPivotGridModule, DxTooltipModule, DxTreeListModule, DxSliderModule, HttpClientModule, DxChartModule],
   providers: [AuthGuardService, CommitsService],
   exports: [RouterModule],
   declarations: [HomeComponent, DisplayDataComponent, DisplayDataComponent2, DisplayDataComponent3]

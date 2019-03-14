@@ -1,5 +1,17 @@
 <h2 class="content-block">Commits Data</h2>
 
+<dx-slider [min]="0" [max]="150" [value]="0" (onValueChanged)="slideChanged($event)">
+    <dxo-tooltip [enabled]="true"></dxo-tooltip>
+</dx-slider>
+
+
+<dx-chart id="sales-chart">
+        <dxo-common-series-settings type="bar"></dxo-common-series-settings>
+        <dxo-size [height]="200"></dxo-size>
+        <dxo-adaptive-layout [width]="450"></dxo-adaptive-layout>
+        <dxo-tooltip [enabled]="true" format="currency" [customizeTooltip]="customizeTooltip"></dxo-tooltip>
+    </dx-chart>
+    
 <dx-pivot-grid [allowSortingBySummary]="true" [allowSorting]="true" [allowFiltering]="true" [allowExpandAll]="true"
     rowHeaderLayout="tree" [showBorders]="true" [dataSource]="dataSource" (onCellPrepared)="cellPrepared($event)"
     height="500px" [showColumnGrandTotals]="false" [showRowGrandTotals]="false" [showRowTotals]="false"

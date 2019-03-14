@@ -1,11 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { Service, CommitInfo } from '../../shared/services/commits.service';
+
+import DataSource from "devextreme/ui/pivot_grid/data_source";
+
+
+import {
+  DxPivotGridComponent,
+  DxChartComponent } from 'devextreme-angular';
 
 @Component({
   templateUrl: 'display-data.component.html'
 })
 
 export class DisplayDataComponent {
+  
+  @ViewChild(DxPivotGridComponent) pivotGrid: DxPivotGridComponent;
+  @ViewChild(DxChartComponent) chart: DxChartComponent;
   dataSource: any;
   minValue: number;
   maxValue: number;
@@ -30,6 +40,7 @@ export class DisplayDataComponent {
 
         dataItems.push(...commits.map(item => Object.assign({
           ...folderObject,
+          totalCommits: commits.length,
           ...item
         })));
       })
@@ -63,14 +74,38 @@ export class DisplayDataComponent {
         }
       );
 
-      this.dataSource = {
+      this.dataSource = new DataSource( {
         fields,
         store: dataItems.map(item => Object.assign({
           commits: 1,
           changes: item.additions + item.deleteons
         }, item))
-      }
+      });
     });
+  }
+
+  ngAfterViewInit() {
+    this.pivotGrid.instance.bindChart(this.chart.instance, {
+      dataFieldsDisplayMode: "splitPanes",
+      alternateDataFields: false
+    });
+
+    setTimeout(() => {
+        var dataSource = this.pivotGrid.instance.getDataSource();
+        dataSource.expandHeaderItem('row', ['North America']);
+        dataSource.expandHeaderItem('column', [2013]);
+    }, 0);
+  }
+
+  customizeTooltip(args) {
+    return {
+      html: args.seriesName + " | Total<div class='currency'>" + args.valueText + "</div>"
+    };
+  }
+  
+  slideChanged(args) {
+    this.dataSource.filter(["totalCommits", ">", args.value]);
+    this.dataSource.reload();
   }
 
   cellPrepared(args) {
@@ -79,6 +114,11 @@ export class DisplayDataComponent {
     if (cell.value) {
       const color = 1 - (cell.value - this.minValue) / (this.maxValue - this.minValue);
       cellElement.style.backgroundColor = `rgb(${color * 255}, 255, 255)`;
+
+      
+      cellElement.addEventListener("click", () => {
+          window.open(`https://github.com/angular/angular/commits/19_1/${cell.rowPath.join('/')}`, '_blank')
+      });
     }
   }
 }
