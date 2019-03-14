@@ -10,14 +10,6 @@ export class DisplayDataComponent {
   minValue: number;
   maxValue: number;
 
-  minDate: Date;
-  maxDate: Date;
-
-  startDate: Date;
-  endDate: Date;
-
-  selectedMinDate: Date
-
   constructor(service: Service) {
     service.getCommits().subscribe((data) => {
       const fileNames = Object.keys(data);
@@ -42,8 +34,8 @@ export class DisplayDataComponent {
       this.minValue = 0;//Math.min(...data.map(item => item.amount));
       this.maxValue = 1000; // Math.max(...data.map(item => item.amount));
 
-      this.startDate = new Date(Math.min.apply(null, res.map(item => new Date(item.date))));
-      this.endDate = new Date(Math.max.apply(null, res.map(item => new Date(item.date))));
+      // this.startDate = new Date(Math.min.apply(null, res.map(item => new Date(item.date))));
+      // this.endDate = new Date(Math.max.apply(null, res.map(item => new Date(item.date))));
 
       const fields = [];
       for (let i = 1; i < maxIndex; i++) {
