@@ -1,0 +1,22 @@
+<h2 class="content-block">Commits Data</h2>
+
+<dx-tree-list [dataSource]="dataSource" keyExpr="ID" parentIdExpr="Folder_ID" [showRowLines]="true" [showBorders]="true"
+    [columnAutoWidth]="true" height="500px">
+    <dxi-column dataField="name" caption="Name"></dxi-column>
+    <dxi-column dataField="Commits" cellTemplate="commitsTemplate"></dxi-column>
+
+    <div *dxTemplate="let data of 'commitsTemplate'">
+        <dx-chart [dataSource]="data.data.commits">
+            <dxo-size [height]="50" [width]="400"></dxo-size>
+            <dxo-legend [visible]="false"></dxo-legend>
+            <dxi-series argumentField="date" valueField="additions" type="bar">
+                <dxo-aggregation [enabled]="true"></dxo-aggregation>
+            </dxi-series>
+            <dxo-argument-axis
+            [visualRange]="['01/01/2017', '12/31/2019']"
+            aggregationInterval="day"
+          >
+          </dxo-argument-axis>
+        </dx-chart>
+    </div>
+</dx-tree-list>
