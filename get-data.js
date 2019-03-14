@@ -5,7 +5,7 @@ const git = simpleGit(workingDirecotory);
 
 const files = {};
 
-module.exports = () => {
+module.exports = (withFixes) => {
     return new Promise((resolve, reject) => {
         const date = new Date();
         const endDate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()} ${date.getHours()}:${date.getMinutes()}`;
@@ -26,14 +26,28 @@ module.exports = () => {
 
                         const additions = rawFileChanges.match(/^\+[^+]/gm);
                         const deleteons = rawFileChanges.match(/^\-[^-]/gm);
-                        fileCommits.push({
-                            date: commit.date,
-                            additions: additions ? additions.length : 0,
-                            deleteons: deleteons ? deleteons.length : 0,
-                            author: commit.author_name,
-                            email: commit.author_email,
-                            hash: commit.hash
-                        });
+
+                        if(withFixes) {
+                            if(/(Fix(es)?)|(fix(es)?)|(T\d{6})/.test(commit.message)) {
+                                fileCommits.push({
+                                    date: commit.date,
+                                    additions: additions ? additions.length : 0,
+                                    deleteons: deleteons ? deleteons.length : 0,
+                                    author: commit.author_name,
+                                    email: commit.author_email,
+                                    hash: commit.hash
+                                });
+                            }
+                        } else {
+                            fileCommits.push({
+                                date: commit.date,
+                                additions: additions ? additions.length : 0,
+                                deleteons: deleteons ? deleteons.length : 0,
+                                author: commit.author_name,
+                                email: commit.author_email,
+                                hash: commit.hash
+                            });
+                        }
                     });
                     callback();
                 });

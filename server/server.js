@@ -10,23 +10,40 @@ const corsOptions = {
     optionsSuccessStatus: 200
 };
 
-const readData = () => {
+const readData = (withFix) => {
     return new Promise((resolve, reject) => {
-        fs.readFile('data.json', (err, res) => {
-            cachedData = res.toString();
-            resolve('data cashed');
-        });
+        if(withFix) {
+            fs.readFile('dataWithFixes.json', (err, res) => {
+                cachedData = res.toString();
+                resolve('data cashed');
+            });
+        } else {
+            fs.readFile('data.json', (err, res) => {
+                cachedData = res.toString();
+                resolve('data cashed');
+            });
+        }
+        
     });
 };
 
-const updateData = () => {
+const updateData = (withFix) => {
     return new Promise((resolve, reject) => {
-        getData().then((data) => {
-            fs.writeFile(`data.json`, JSON.stringify(data, null, ' '), ()=>{
-                readData().then(() => {
-                    resolve('data updated')
+        getData(withFix).then((data) => {
+
+            if(withFix) {
+                fs.writeFile(`dataWithFixes.json`, JSON.stringify(data, null, ' '), ()=>{
+                    readData().then(() => {
+                        resolve('data updated')
+                    });
                 });
-            });
+            } else {
+                fs.writeFile(`data.json`, JSON.stringify(data, null, ' '), ()=>{
+                    readData().then(() => {
+                        resolve('data updated')
+                    });
+                });
+            }
         });
     });
 };
@@ -34,21 +51,37 @@ const updateData = () => {
 app.use(cors(corsOptions));
 
 app.get('/updateData', (req, res) => {
-    updateData().then((r) => {
+    const withFix = req.query && req.query.withfixes;
+
+    updateData(withFix).then((r) => {
         res.send(r);
     });
 });
 
 app.get('/getData', (req, res) => {
-    readData().then(() => {
-        if(!cachedData) {
-            updateData().then((r) => {
+    const withFix = req.query && req.query.withfixes;
+
+    if (withFix) {
+        readData(withFix).then(() => {
+            if(!cachedData) {
+                updateData(withFix).then((r) => {
+                    res.send(cachedData);
+                });
+            } else {
                 res.send(cachedData);
-            });
-        } else {
-            res.send(cachedData);
-        }
-    });    
+            }
+        }); 
+    } else {
+        readData(withFix).then(() => {
+            if(!cachedData) {
+                updateData(withFix).then((r) => {
+                    res.send(cachedData);
+                });
+            } else {
+                res.send(cachedData);
+            }
+        }); 
+    }
 });
 
 app.get('/addRepo', (req, res) => {
