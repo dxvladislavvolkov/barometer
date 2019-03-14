@@ -28,5 +28,5 @@ app.get('/getData', (req, res) => {
 });
 
 app.listen(1234, () => {
-    console.log('barometr host');
+    console.log('barometr host http://localhost:1234/getdata');
 });
