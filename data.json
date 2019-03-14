@@ -1,0 +1,9024 @@
+{
+ "js/ui/drawer/ui.drawer.js": [
+  {
+   "date": "2019-03-14 10:59:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 10:15:39 +0300",
+   "changes": 1
+  }
+ ],
+ "ts/dx.all.d.ts": [
+  {
+   "date": "2019-03-14 10:59:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 11:50:31 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-11 16:27:24 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-07 11:34:37 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 13:31:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:05:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-01 11:41:58 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 14:11:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 14:31:57 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 11:48:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 14:55:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 05:38:45 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 15:41:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 17:22:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 17:47:11 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 15:30:38 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 12:01:19 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 18:06:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 15:15:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 13:40:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 19:03:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 18:29:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-21 14:06:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 12:02:19 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/date.js": [
+  {
+   "date": "2019-03-14 07:21:20 +0100",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointment_model.js": [
+  {
+   "date": "2019-03-14 07:21:20 +0100",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.subscribes.js": [
+  {
+   "date": "2019-03-14 07:21:20 +0100",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 11:12:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 11:24:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 16:51:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 14:50:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/utils.recurrence.js": [
+  {
+   "date": "2019-03-14 07:21:20 +0100",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 17:37:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 14:50:07 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.core/utils.date.tests.js": [
+  {
+   "date": "2019-03-14 07:21:20 +0100",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.recurringAppointments.tests.js": [
+  {
+   "date": "2019-03-14 07:21:20 +0100",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 14:08:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 14:50:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 14:31:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 13:32:56 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.columns_controller.js": [
+  {
+   "date": "2019-03-13 20:33:41 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-11 08:58:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 12:08:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 16:29:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 16:48:40 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 16:56:41 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:01:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 15:56:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 10:21:05 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/base/dataGrid.less": [
+  {
+   "date": "2019-03-13 20:33:41 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/base/treeList.less": [
+  {
+   "date": "2019-03-13 20:33:41 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/columnsController.tests.js": [
+  {
+   "date": "2019-03-13 20:33:41 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 12:08:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 16:56:41 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 15:56:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 10:21:05 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/html_editor/formats/image.js": [
+  {
+   "date": "2019-03-13 16:42:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:56:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/html_editor/modules/toolbar.js": [
+  {
+   "date": "2019-03-13 16:42:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 14:45:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 11:08:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:20:31 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:19:42 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/htmlEditorParts/toolbarIntegration.tests.js": [
+  {
+   "date": "2019-03-13 16:42:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 11:08:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 09:22:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:20:31 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/htmlEditorParts/toolbarModule.tests.js": [
+  {
+   "date": "2019-03-13 16:42:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 11:08:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:19:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/chart_components/base_chart.js": [
+  {
+   "date": "2019-03-13 16:02:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 16:18:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 15:45:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:28:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:23:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 10:31:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/annotations.js": [
+  {
+   "date": "2019-03-13 16:02:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 12:25:49 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:09:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 14:54:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:28:46 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chart.part7.tests.js": [
+  {
+   "date": "2019-03-13 16:02:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/annotations.plugins.tests.js": [
+  {
+   "date": "2019-03-13 16:02:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:09:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:28:46 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/annotations.tests.js": [
+  {
+   "date": "2019-03-13 16:02:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 12:25:49 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:09:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 14:54:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:28:46 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/nativePointerMock.js": [
+  {
+   "date": "2019-03-13 15:38:12 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 18:29:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  }
+ ],
+ "js/events/utils.js": [
+  {
+   "date": "2019-03-13 12:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.events/events.utils.tests.js": [
+  {
+   "date": "2019-03-13 12:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.performance/schedulerRecalculations.tests.js": [
+  {
+   "date": "2019-03-13 10:22:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.column_state_mixin.js": [
+  {
+   "date": "2019-03-12 23:09:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/dataGrid.tests.js": [
+  {
+   "date": "2019-03-12 23:09:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 23:08:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-11 08:59:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-11 08:58:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-11 08:58:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:57:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-01 17:07:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 21:53:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 05:41:00 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 09:20:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 15:28:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-01 13:47:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 08:47:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 16:56:41 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 15:20:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:01:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:47:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:47:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 09:02:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 11:45:27 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 08:46:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 16:47:43 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 16:50:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 16:11:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 14:28:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 17:59:10 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 13:56:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 12:30:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 18:26:05 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:33:45 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.grid_view.js": [
+  {
+   "date": "2019-03-12 23:08:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "build/style-compiler/LessRegistry.cs": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/android5/color-schemes/light/android5.light.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/android5/spa.android5.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/spa.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/color-schemes/carmine/generic.carmine.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/color-schemes/contrast/generic.contrast.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/color-schemes/dark/generic.dark.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 16:11:17 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/color-schemes/darkmoon/generic.darkmoon.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/color-schemes/darkviolet/generic.darkviolet.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/color-schemes/greenmist/generic.greenmist.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/color-schemes/light/generic.light.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/color-schemes/softblue/generic.softblue.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/spa.generic.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/ios7/color-schemes/default/ios7.default.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/ios7/spa.ios7.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/color-schemes/material.dark.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/color-schemes/material.light.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/spa.material.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/win10/spa.win10.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/win8/spa.win8.less": [
+  {
+   "date": "2019-03-12 20:07:27 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/layoutManager.tests.js": [
+  {
+   "date": "2019-03-12 18:20:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 16:52:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 10:54:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.js": [
+  {
+   "date": "2019-03-12 16:52:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 11:12:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 11:24:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 16:51:28 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.layout_manager.js": [
+  {
+   "date": "2019-03-12 16:52:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 10:54:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/textEditor.material.less": [
+  {
+   "date": "2019-03-12 15:48:50 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/components/legend.js": [
+  {
+   "date": "2019-03-12 15:18:49 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 15:45:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/legend.tests.js": [
+  {
+   "date": "2019-03-12 15:18:49 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 15:45:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/textEditorParts/markup.tests.js": [
+  {
+   "date": "2019-03-12 13:46:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/workspaces/ui.scheduler.timeline_month.js": [
+  {
+   "date": "2019-03-12 09:59:58 +0100",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/workspaces/ui.scheduler.work_space.js": [
+  {
+   "date": "2019-03-12 09:59:58 +0100",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 11:54:45 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.timeline.tests.js": [
+  {
+   "date": "2019-03-12 09:59:58 +0100",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/button.js": [
+  {
+   "date": "2019-03-12 11:50:31 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.js": [
+  {
+   "date": "2019-03-12 11:12:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-12 10:54:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 14:07:31 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 18:09:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 16:51:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 10:32:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-21 12:55:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 14:40:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:30:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 12:32:11 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 13:32:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 17:09:49 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/color_box/color_box.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/date_box/ui.date_box.base.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 10:59:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 11:00:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 10:36:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:16:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:30:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 11:07:48 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 12:23:49 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drop_down_box.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-01 15:28:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 14:40:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drop_down_editor/ui.drop_down_editor.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 13:28:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 15:01:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 10:55:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 14:40:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 14:33:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/number_box/number_box.base.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-01 17:14:05 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 11:07:47 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/number_box/number_box.mask.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 11:52:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 13:49:49 +0100",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:39:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-01 17:14:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 12:07:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/select_box.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 13:15:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 13:20:30 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/text_box/ui.text_editor.base.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 15:01:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 12:33:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 14:08:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 10:15:39 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/text_box/ui.text_editor.mask.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 11:07:47 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/dropDownEditor.markup.tests.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/lookup.markup.tests.js": [
+  {
+   "date": "2019-03-12 11:07:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 16:10:05 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drawer/ui.drawer.rendering.strategy.js": [
+  {
+   "date": "2019-03-12 07:59:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 13:10:54 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drawer/ui.drawer.rendering.strategy.overlap.js": [
+  {
+   "date": "2019-03-12 07:59:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 13:10:54 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drawer/ui.drawer.rendering.strategy.push.js": [
+  {
+   "date": "2019-03-12 07:59:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drawer/ui.drawer.rendering.strategy.shrink.js": [
+  {
+   "date": "2019-03-12 07:59:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 13:10:54 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/menu.tests.js": [
+  {
+   "date": "2019-03-11 19:36:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-11 16:14:30 +0300",
+   "changes": 1
+  }
+ ],
+ "build/gulp/modules_metadata.json": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 19:03:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:02:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/bundles/modules/framework.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/bundles/modules/parts/core.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/action_executors.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/application.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/browser_adapters.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/command.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/command_mapping.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/errors.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/command_container.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/command_manager.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/html_application.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/layout_controller.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/markup_component.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/presets.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/view_engine.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/view_engine_components.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/html/widget_command_adapters.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/navigation_devices.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/navigation_manager.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/router.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/state_manager.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/utils.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/framework/view_cache.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/framework/common/framework.less": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/frameworkMocks.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/htmlFrameworkMocks.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/layoutHelper.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/runner/Views/Main/RunSuite.cshtml": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/Bundles/bundlesParts/framework.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/Bundles/dx.all.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/Bundles/dx.custom.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/Bundles/dx.mobile.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/Bundles/dx.viz-web.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/Bundles/dx.web.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/__meta.json": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/actionExecutors.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/application.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/browserAdapters.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/browserNavigationDevice.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/command.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/commandMapping.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/frameworkParts/html_commandManager.markup.html": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/frameworkParts/html_layoutController.markup.html": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/frameworkParts/html_viewEngine.markup.html": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/frameworkParts/html_widgetCommandAdapters.markup.html": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_application.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_commandManager.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_layoutController.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_markupComponent.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_viewEngine.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_widgetCommandAdapters.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/navigationManager.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/routing.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/stateManager.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/utils.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/viewCache.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.performance/frameworkRenderStyleRecalculations.tests.js": [
+  {
+   "date": "2019-03-11 18:39:22 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/gridBase.less": [
+  {
+   "date": "2019-03-11 16:20:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 19:33:10 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:27:50 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 16:11:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/gridView.tests.js": [
+  {
+   "date": "2019-03-11 16:20:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-07 15:36:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:47:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 14:25:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/menu/ui.submenu.js": [
+  {
+   "date": "2019-03-11 16:14:30 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/dropDownEditor.generic.less": [
+  {
+   "date": "2019-03-11 14:22:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 08:28:53 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/range_selector/sliders_controller.js": [
+  {
+   "date": "2019-03-11 13:38:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.rangeSelector/range_selector.integration.tests.js": [
+  {
+   "date": "2019-03-11 13:38:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 18:44:23 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.editing.js": [
+  {
+   "date": "2019-03-11 08:59:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 14:56:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 04:02:10 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:41:49 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:06:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:37:19 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:40:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.grouping.expanded.js": [
+  {
+   "date": "2019-03-11 08:58:57 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/dataSource.tests.js": [
+  {
+   "date": "2019-03-11 08:58:57 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:47:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.data_controller.js": [
+  {
+   "date": "2019-03-11 08:58:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-11 08:58:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:57:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 16:00:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 16:00:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 21:53:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:29:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:37:19 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:40:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 10:00:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 18:08:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 08:46:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/dataController.tests.js": [
+  {
+   "date": "2019-03-11 08:58:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:57:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 16:00:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 16:00:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 08:55:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 21:53:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:29:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:40:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 13:32:26 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 08:49:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 13:56:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:47:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.column_fixing.js": [
+  {
+   "date": "2019-03-07 15:36:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:47:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 14:25:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 05:26:50 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/pivotGrid.export.tests.js": [
+  {
+   "date": "2019-03-07 15:22:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 10:58:39 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/pivotGrid.tests.js": [
+  {
+   "date": "2019-03-07 15:22:20 +0300",
+   "changes": 1
+  }
+ ],
+ "build/gulp/themebuilder-npm.js": [
+  {
+   "date": "2019-03-07 13:47:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 07:39:08 +0300",
+   "changes": 1
+  }
+ ],
+ "package.json": [
+  {
+   "date": "2019-03-07 13:47:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-07 11:34:37 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 12:45:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 12:36:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 13:47:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:22:44 +0300",
+   "changes": 1
+  }
+ ],
+ "themebuilder/package.json": [
+  {
+   "date": "2019-03-07 13:47:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 07:39:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 12:45:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 15:10:43 +0300",
+   "changes": 1
+  }
+ ],
+ "build/update-ts.js": [
+  {
+   "date": "2019-03-07 11:34:37 +0200",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.keyboard_navigation.js": [
+  {
+   "date": "2019-03-06 14:56:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 02:18:47 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 05:41:00 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 04:42:26 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 04:04:36 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 04:02:10 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:41:49 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:36:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:06:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:09:39 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 11:45:27 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/keyboardNavigation.tests.js": [
+  {
+   "date": "2019-03-06 14:56:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 02:18:47 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 04:42:26 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 04:04:36 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 04:02:10 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:41:49 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 18:38:02 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:06:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:09:39 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/numberBoxParts/mask.tests.js": [
+  {
+   "date": "2019-03-06 14:08:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 11:52:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:39:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-01 17:14:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 13:20:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 12:07:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/renderers/renderer.js": [
+  {
+   "date": "2019-03-06 13:58:36 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 20:31:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 15:15:02 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.renderers/SvgElement.tests.js": [
+  {
+   "date": "2019-03-06 13:58:36 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 20:31:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 14:53:15 +0300",
+   "changes": 1
+  }
+ ],
+ "build/gulp/layouts.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "gulpfile.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Desktop/DesktopLayout.css": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Desktop/DesktopLayout.html": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Desktop/DesktopLayout.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Empty/EmptyLayout.css": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Empty/EmptyLayout.html": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Empty/EmptyLayout.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Navbar/NavbarLayout.css": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Navbar/NavbarLayout.html": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Navbar/NavbarLayout.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Pivot/PivotLayout.css": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Pivot/PivotLayout.html": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Pivot/PivotLayout.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Popup/PopupLayout.css": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Popup/PopupLayout.html": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Popup/PopupLayout.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Simple/SimpleLayout.css": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Simple/SimpleLayout.html": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Simple/SimpleLayout.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/SlideOut/SlideOutLayout.css": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/SlideOut/SlideOutLayout.html": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/SlideOut/SlideOutLayout.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Split/SplitLayout.css": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Split/SplitLayout.html": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "layouts/Split/SplitLayout.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/qunitExtensions.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_navbarLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_navbarLayoutController_bundled.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_pivotLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_pivotLayoutController_bundled.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_popupLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_popupLayoutController_bundled.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_slideoutLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_slideoutLayoutController_bundled.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_splitLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_splitLayoutController_bundled.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_win8SimpleLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/html_win8SimpleLayoutController_bundled.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/layoutParts/html_navbarLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/layoutParts/html_pivotLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/layoutParts/html_popupLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/layoutParts/html_slideoutLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/layoutParts/html_splitLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.framework/layoutParts/html_win8SimpleLayoutController.tests.js": [
+  {
+   "date": "2019-03-06 13:58:23 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drop_down_button.js": [
+  {
+   "date": "2019-03-06 13:31:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/editor/editor.js": [
+  {
+   "date": "2019-03-06 13:28:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 14:40:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 11:01:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/widget/ui.widget.js": [
+  {
+   "date": "2019-03-06 13:28:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 12:33:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 14:33:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui/widget.tests.js": [
+  {
+   "date": "2019-03-06 13:28:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 15:15:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/themes/generic.light.js": [
+  {
+   "date": "2019-03-06 12:25:49 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-06 11:09:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 15:39:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 13:21:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 15:36:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 15:21:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 14:34:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 10:28:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 17:16:41 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 10:31:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.focus.js": [
+  {
+   "date": "2019-03-06 12:09:36 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-01 17:07:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 08:55:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:36:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:37:19 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 12:01:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 13:56:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 18:26:05 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:33:45 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/focus.tests.js": [
+  {
+   "date": "2019-03-06 12:09:36 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 08:55:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:36:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 12:01:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 13:56:28 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/collection/ui.collection_widget.live_update.js": [
+  {
+   "date": "2019-03-06 12:05:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 18:07:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 16:21:52 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/listParts/liveUpdateTests.js": [
+  {
+   "date": "2019-03-06 12:05:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 18:07:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.data_source_adapter.js": [
+  {
+   "date": "2019-03-06 11:57:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 08:55:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:47:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 13:32:26 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chart.part1.tests.js": [
+  {
+   "date": "2019-03-06 11:09:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:23:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 10:31:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/array.js": [
+  {
+   "date": "2019-03-06 09:51:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/text_box/action_button_collection/index.js": [
+  {
+   "date": "2019-03-06 09:51:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/collection/ui.collection_widget.edit.js": [
+  {
+   "date": "2019-03-05 18:56:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 11:41:46 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/tabPanel.tests.js": [
+  {
+   "date": "2019-03-05 18:56:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 16:21:52 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui/collectionWidgetParts/liveUpdateTests.js": [
+  {
+   "date": "2019-03-05 18:56:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/dropDownEditor.tests.js": [
+  {
+   "date": "2019-03-05 15:01:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-05 10:55:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 14:40:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/lookup.tests.js": [
+  {
+   "date": "2019-03-05 15:01:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 16:34:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.data_source_adapter.js": [
+  {
+   "date": "2019-03-05 14:45:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 15:58:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 12:47:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 15:06:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:44:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 19:23:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 18:08:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/dataController.tests.js": [
+  {
+   "date": "2019-03-05 14:45:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 15:58:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 12:47:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 15:06:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:44:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 19:23:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/chart.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 10:56:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:28:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 10:31:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 14:53:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/chart_components/advanced_chart.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 10:56:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/components/chart_theme_manager.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/base_theme_manager.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/base_widget.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/export.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 18:38:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 15:56:10 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 19:03:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:02:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/helpers.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 11:23:47 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/loading_indicator.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 11:23:47 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/title.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/tooltip.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/funnel/funnel.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/funnel/label.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 17:18:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 13:21:35 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/gauges/bar_gauge.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 14:56:12 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 15:39:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 15:21:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 15:12:10 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 12:17:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 14:34:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/gauges/base_gauge.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/gauges/circular_gauge.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/gauges/common.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 17:16:41 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/gauges/linear_gauge.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/gauges/theme_manager.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/pie_chart.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/polar_chart.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/range_selector/range_selector.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 18:44:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/range_selector/series_data_source.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/range_selector/theme_manager.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/sankey/sankey.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/sparklines/base_sparkline.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 10:37:57 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/sparklines/bullet.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/sparklines/sparkline.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 16:42:19 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/tree_map/tree_map.base.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/vector_map/theme_manager.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/vector_map/vector_map.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/pieChart.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 09:27:40 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 15:15:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/themeManager.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/baseThemeManager.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.gauges/baseGauge.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.gauges/common.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 17:16:41 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.gauges/rangeContainer.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 13:26:48 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.gauges/themeManager.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.rangeSelector/rangeSelectorParts/commons.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.rangeSelector/themeManager.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.sparklines/bullet.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.sparklines/sparkline.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.vectorMap/dxVectorMap.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.vectorMap/themeManager.tests.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.vectorMap/vectorMapParts/commons.js": [
+  {
+   "date": "2019-03-05 14:08:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/gridBaseMocks.js": [
+  {
+   "date": "2019-03-05 02:18:47 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:37:19 +0200",
+   "changes": 1
+  }
+ ],
+ "js/ui/drop_down_menu.js": [
+  {
+   "date": "2019-03-05 12:59:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 14:45:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:20:31 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/dropDownMenu.tests.js": [
+  {
+   "date": "2019-03-05 12:59:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 14:45:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:20:31 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drop_down_editor/ui.drop_down_button.js": [
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/number_box/number_box.spins.js": [
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tag_box.js": [
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-01 15:28:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 17:28:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 12:07:04 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/text_box/action_button_collection/button.js": [
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/text_box/ui.text_editor.clear.js": [
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/numberBox.less": [
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/textEditor.less": [
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/numberBoxParts/common.tests.js": [
+  {
+   "date": "2019-03-05 12:30:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-01 17:14:05 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 11:07:47 +0300",
+   "changes": 1
+  }
+ ],
+ "js/docEnums.js": [
+  {
+   "date": "2019-03-05 12:05:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 15:39:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 13:21:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 15:21:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 15:58:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 04:02:10 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 00:03:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 19:23:09 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/workspaces/ui.scheduler.timeline.js": [
+  {
+   "date": "2019-03-05 11:54:45 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/timeline.tests.js": [
+  {
+   "date": "2019-03-05 11:54:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 13:46:15 +0300",
+   "changes": 1
+  }
+ ],
+ ".eslintrc": [
+  {
+   "date": "2019-03-05 07:39:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 12:40:11 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 10:00:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 15:15:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:56:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:42:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:31:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:38:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 11:34:41 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 11:19:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 10:36:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 10:15:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 13:21:43 +0300",
+   "changes": 1
+  }
+ ],
+ "themebuilder/.npmignore": [
+  {
+   "date": "2019-03-05 07:39:08 +0300",
+   "changes": 1
+  }
+ ],
+ "themebuilder/modules/less-template-loader.js": [
+  {
+   "date": "2019-03-05 07:39:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 12:42:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:50:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 15:10:43 +0300",
+   "changes": 1
+  }
+ ],
+ "themebuilder/tests/less-template-loader-spec.js": [
+  {
+   "date": "2019-03-05 07:39:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 12:42:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:50:56 +0300",
+   "changes": 1
+  }
+ ],
+ "js/bundles/modules/parts/widgets-base.js": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/android5/dropDownButton.android5.less": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/dropDownButton.less": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/dropDownButton.generic.less": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/ios7/dropDownButton.ios7.less": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/dropDownButton.material.less": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/win10/dropDownButton.win10.less": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/win8/dropDownButton.win8.less": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/dropDownButton.tests.js": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui/defaultOptions.tests.js": [
+  {
+   "date": "2019-03-04 17:29:13 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chart.integration.tests.js": [
+  {
+   "date": "2019-03-04 16:18:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 15:45:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 19:54:36 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 14:28:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.summary.js": [
+  {
+   "date": "2019-03-04 16:00:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/series_family.js": [
+  {
+   "date": "2019-03-04 14:17:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 11:07:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 10:53:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 19:54:36 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/seriesFamily.tests.js": [
+  {
+   "date": "2019-03-04 14:17:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-03-04 11:07:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 10:53:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 19:54:36 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docObjectsDxChart.js": [
+  {
+   "date": "2019-03-04 10:02:57 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/base_series.js": [
+  {
+   "date": "2019-03-04 10:02:57 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 10:53:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/baseSeries.tests.js": [
+  {
+   "date": "2019-03-04 10:02:57 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/form/instance_storage.js": [
+  {
+   "date": "2019-03-02 12:43:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/form/ui.form.items_runtime_info.js": [
+  {
+   "date": "2019-03-02 12:43:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/form/ui.form.js": [
+  {
+   "date": "2019-03-02 12:43:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/form/ui.form.layout_manager.js": [
+  {
+   "date": "2019-03-02 12:43:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 14:08:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 12:26:33 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.form/form.API.getEditor.tests.js": [
+  {
+   "date": "2019-03-02 12:43:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.form/form.API.option_formData.tests.js": [
+  {
+   "date": "2019-03-02 12:43:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.form/form.API.option_items_cssClass.tests.js": [
+  {
+   "date": "2019-03-02 12:43:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.form/form.API.registerKeyHandler.tests.js": [
+  {
+   "date": "2019-03-02 12:43:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.columns_view.js": [
+  {
+   "date": "2019-03-01 17:32:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:40:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 16:56:41 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 09:02:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.rows.js": [
+  {
+   "date": "2019-03-01 17:32:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:50:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:37:19 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 12:30:07 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.virtual_scrolling.js": [
+  {
+   "date": "2019-03-01 17:32:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 21:53:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:50:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 15:28:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-01 13:47:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:47:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/adaptiveColumns.tests.js": [
+  {
+   "date": "2019-03-01 17:32:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/editing.tests.js": [
+  {
+   "date": "2019-03-01 17:32:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 12:08:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:37:19 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 18:08:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:27:50 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/rowsView.tests.js": [
+  {
+   "date": "2019-03-01 17:32:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:50:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 15:20:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/common.tests.js": [
+  {
+   "date": "2019-03-01 02:31:37 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 14:07:31 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 16:51:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:30:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 17:09:49 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/box.js": [
+  {
+   "date": "2019-03-01 10:49:00 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/box.markup.tests.js": [
+  {
+   "date": "2019-03-01 10:49:00 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/box.tests.js": [
+  {
+   "date": "2019-03-01 10:49:00 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/base/scheduler.less": [
+  {
+   "date": "2019-03-01 10:16:38 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 09:06:26 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 14:18:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 13:04:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 10:28:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-21 10:07:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.appointments.tests.js": [
+  {
+   "date": "2019-03-01 10:16:38 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 14:08:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 16:51:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 14:50:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:30:13 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docgauges.js": [
+  {
+   "date": "2019-02-28 20:45:51 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 20:14:20 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-28 14:56:12 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 15:39:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 15:21:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-19 11:53:38 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 14:54:57 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 11:07:41 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 11:23:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:35:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 17:16:41 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.funnel/funnel.label.tests.js": [
+  {
+   "date": "2019-02-28 17:18:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 13:21:35 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/html_editor/modules/resizing.js": [
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 13:05:57 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/htmlEditor.less": [
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 16:30:05 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:20:31 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/resizable.less": [
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/htmlEditor.generic.less": [
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/htmlEditor.material.less": [
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/htmlEditorParts/resizingModule.tests.js": [
+  {
+   "date": "2019-02-28 15:42:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.gauges/barGauge_new.tests.js": [
+  {
+   "date": "2019-02-28 14:56:12 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 15:12:10 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 12:17:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 14:34:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docBaseWidget.js": [
+  {
+   "date": "2019-02-28 14:04:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 11:23:47 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/doccharts.js": [
+  {
+   "date": "2019-02-28 14:04:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 10:28:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:12:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 21:27:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 10:31:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docfunnel.js": [
+  {
+   "date": "2019-02-28 14:04:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-27 13:21:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 21:27:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docvectormap.js": [
+  {
+   "date": "2019-02-28 14:04:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 21:27:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "playground/webpack.config.dev.js": [
+  {
+   "date": "2019-02-28 12:36:23 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/button_group.js": [
+  {
+   "date": "2019-02-28 12:28:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 17:43:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 10:00:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/buttonGroup.tests.js": [
+  {
+   "date": "2019-02-28 12:28:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 17:43:13 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/chart_components/zoom_and_pan.js": [
+  {
+   "date": "2019-02-27 17:45:58 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:56:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 11:52:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 13:50:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/zoomAndPan.tests.js": [
+  {
+   "date": "2019-02-27 17:45:58 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 13:50:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.gauges/barGauge.tests.js": [
+  {
+   "date": "2019-02-27 15:39:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 15:21:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 14:34:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/toolbar.js": [
+  {
+   "date": "2019-02-27 14:45:08 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/toolbar/ui.toolbar.strategy.drop_down_menu.js": [
+  {
+   "date": "2019-02-27 14:45:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:20:31 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/toolbar.tests.js": [
+  {
+   "date": "2019-02-27 14:45:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:20:31 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/component.js": [
+  {
+   "date": "2019-02-27 14:07:31 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.funnel/commonParts/common.js": [
+  {
+   "date": "2019-02-27 13:21:35 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.funnel/commonParts/label.js": [
+  {
+   "date": "2019-02-27 13:21:35 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/collection/ui.collection_widget.base.js": [
+  {
+   "date": "2019-02-27 12:45:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 13:19:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/list/ui.list.base.js": [
+  {
+   "date": "2019-02-27 12:45:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 18:09:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 13:19:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/radio_group/radio_group.js": [
+  {
+   "date": "2019-02-27 12:45:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 17:32:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 10:00:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/radioGroup.tests.js": [
+  {
+   "date": "2019-02-27 12:45:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 17:32:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-26 10:35:30 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui/collectionWidget.tests.js": [
+  {
+   "date": "2019-02-27 12:45:14 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docchartseries.js": [
+  {
+   "date": "2019-02-27 10:53:53 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/chartMocks.js": [
+  {
+   "date": "2019-02-27 10:53:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/pivot_grid/ui.pivot_grid.field_chooser.js": [
+  {
+   "date": "2019-02-27 08:58:49 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/pivot_grid/ui.pivot_grid.field_chooser_base.js": [
+  {
+   "date": "2019-02-27 08:58:49 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/fieldChooser.tests.js": [
+  {
+   "date": "2019-02-27 08:58:49 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/gridBase.generic.less": [
+  {
+   "date": "2019-02-26 17:42:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 05:10:29 -0800",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/gridBase.material.less": [
+  {
+   "date": "2019-02-26 17:42:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 14:12:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docStatic.js": [
+  {
+   "date": "2019-02-26 17:33:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 15:15:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 13:40:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 19:03:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:02:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.form/form.tests.js": [
+  {
+   "date": "2019-02-26 13:27:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 14:08:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-25 12:57:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 10:00:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/html_editor/quill_registrator.js": [
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/html_editor/ui.html_editor.js": [
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 09:22:23 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 10:00:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/htmlEditor.tests.js": [
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 09:22:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/htmlEditorParts/resizingIntegration.tests.js": [
+  {
+   "date": "2019-02-26 12:48:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.columns_resizing_reordering.js": [
+  {
+   "date": "2019-02-26 11:48:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/overlay/ui.overlay.js": [
+  {
+   "date": "2019-02-26 11:48:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 17:49:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 15:50:50 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 15:51:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 08:50:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:31:00 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 14:57:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/pivot_grid/ui.sortable.js": [
+  {
+   "date": "2019-02-26 11:48:28 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/widget/swatch_container.js": [
+  {
+   "date": "2019-02-26 11:48:28 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/overlay.tests.js": [
+  {
+   "date": "2019-02-26 11:48:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 16:32:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 11:46:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 13:39:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 15:50:50 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 15:51:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/dialog.js": [
+  {
+   "date": "2019-02-26 10:48:26 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-19 14:35:38 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 14:40:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 17:22:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:31:00 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui/dialog.tests.js": [
+  {
+   "date": "2019-02-26 10:48:26 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-19 14:35:38 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 14:40:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 17:22:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:31:00 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/editor/ui.data_expression.js": [
+  {
+   "date": "2019-02-26 10:35:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 18:09:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 13:19:28 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/dropDownList.tests.js": [
+  {
+   "date": "2019-02-26 10:35:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:29:31 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/scheduler.generic.less": [
+  {
+   "date": "2019-02-26 09:06:26 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/pivot_grid/local_store.js": [
+  {
+   "date": "2019-02-25 14:35:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/store.local.tests.js": [
+  {
+   "date": "2019-02-25 14:35:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointment_form.js": [
+  {
+   "date": "2019-02-25 14:08:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 14:50:07 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/appointmentPopup.tests.js": [
+  {
+   "date": "2019-02-25 14:08:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 14:50:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:30:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 12:32:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/gauges/base_range_container.js": [
+  {
+   "date": "2019-02-25 13:26:48 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/form.less": [
+  {
+   "date": "2019-02-25 12:57:25 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/bubble_series.js": [
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/helpers/range_data_calculator.js": [
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/line_series.js": [
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/points/base_point.js": [
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/points/symbol_point.js": [
+  {
+   "date": "2019-02-25 10:09:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 17:42:18 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/buttonGroup.markup.tests.js": [
+  {
+   "date": "2019-02-22 17:43:13 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/context_menu/ui.context_menu.js": [
+  {
+   "date": "2019-02-22 16:44:55 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 15:51:16 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/contextMenu.tests.js": [
+  {
+   "date": "2019-02-22 16:44:55 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 15:51:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/integration/angular/component_registrator.js": [
+  {
+   "date": "2019-02-22 16:28:33 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.angular/modelIntegration.tests.js": [
+  {
+   "date": "2019-02-22 16:28:33 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.strategy.agenda.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.strategy.base.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.strategy.horizontal.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.strategy.horizontal_month.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.strategy.horizontal_month_line.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.strategy.vertical.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.current_time_shader.horizontal.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.current_time_shader.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.current_time_shader.vertical.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.timezone_editor.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.timezones.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.timezones_data.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 15:09:16 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.agenda.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.timeline.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 13:46:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.timeline_day.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.timeline_month.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.timeline_week.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.timeline_work_week.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space.grouped.strategy.horizontal.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space.grouped.strategy.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space.grouped.strategy.vertical.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space.indicator.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 16:22:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 13:46:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 09:08:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space_day.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space_month.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 13:31:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 17:32:00 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space_week.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.work_space_work_week.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/agenda.tests.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/appointments.tests.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/currentTimeIndicator.tests.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.agenda.tests.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/timeline.markup.tests.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/timezoneEditor.tests.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/workSpace.markup.tests.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/workSpace.tests.js": [
+  {
+   "date": "2019-02-22 15:55:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-21 13:39:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 12:34:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 09:08:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/integration/knockout/template.js": [
+  {
+   "date": "2019-02-22 14:25:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/integration/knockout/utils.js": [
+  {
+   "date": "2019-02-22 14:25:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointments.drop_down.js": [
+  {
+   "date": "2019-02-22 14:13:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-20 16:51:28 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.draggingFromTooltip.tests.js": [
+  {
+   "date": "2019-02-22 14:13:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/subscribes.tests.js": [
+  {
+   "date": "2019-02-22 11:24:03 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/datebox.tests.js": [
+  {
+   "date": "2019-02-22 10:59:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 13:48:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 10:36:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 18:23:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 17:16:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 10:57:58 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:30:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 11:07:48 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 12:23:49 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 16:50:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 11:56:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 11:07:47 +0300",
+   "changes": 1
+  }
+ ],
+ "js/bundles/modules/parts/viz.js": [
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 19:03:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:02:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/palette.js": [
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/tree_map/colorizing.discrete.js": [
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/vector_map/map_layer.js": [
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 18:34:19 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/palette.tests.js": [
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.funnel/funnel.base.tests.js": [
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.sankey/sankey.base.tests.js": [
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.vectorMap/mapLayer.strategies.tests.js": [
+  {
+   "date": "2019-02-22 09:24:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 18:34:19 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/hierarchical_collection/ui.hierarchical_collection_widget.js": [
+  {
+   "date": "2019-02-21 18:09:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/autocomplete.js": [
+  {
+   "date": "2019-02-21 13:19:28 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/drop_down_editor/ui.drop_down_list.js": [
+  {
+   "date": "2019-02-21 13:19:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 12:33:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.angular/componentRegistration.tests.js": [
+  {
+   "date": "2019-02-21 13:19:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/list.markup.tests.js": [
+  {
+   "date": "2019-02-21 13:19:28 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/listParts/commonTests.js": [
+  {
+   "date": "2019-02-21 13:19:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 11:41:46 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/data_source/data_source.js": [
+  {
+   "date": "2019-02-20 21:53:07 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.data/dataSource.tests.js": [
+  {
+   "date": "2019-02-20 21:53:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 13:43:19 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/treeList.tests.js": [
+  {
+   "date": "2019-02-20 21:53:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.appointment_tooltip.js": [
+  {
+   "date": "2019-02-20 16:51:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 13:32:56 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.appointmentTooltip.tests.js": [
+  {
+   "date": "2019-02-20 16:51:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/lookup.js": [
+  {
+   "date": "2019-02-20 16:10:05 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 11:00:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 16:34:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 12:12:36 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.appointmentsVertical.tests.js": [
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.appointmentsWithTimezone.tests.js": [
+  {
+   "date": "2019-02-20 15:53:25 +0300",
+   "changes": 1
+  }
+ ],
+ "build/gulp/context.js": [
+  {
+   "date": "2019-02-20 08:09:43 +0300",
+   "changes": 1
+  }
+ ],
+ "build/gulp/js-bundles.js": [
+  {
+   "date": "2019-02-20 08:09:43 +0300",
+   "changes": 1
+  }
+ ],
+ "build/gulp/transpile.js": [
+  {
+   "date": "2019-02-20 08:09:43 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/version.js": [
+  {
+   "date": "2019-02-20 08:09:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 13:47:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:22:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/widget/ui.errors.js": [
+  {
+   "date": "2019-02-19 14:35:38 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-06 12:37:19 +0200",
+   "changes": 1
+  }
+ ],
+ "js/ui/pivot_grid/data_source.js": [
+  {
+   "date": "2019-02-19 11:48:12 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 13:39:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/pivot_grid/remote_store.js": [
+  {
+   "date": "2019-02-19 11:48:12 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/pivot_grid/ui.pivot_grid.data_controller.js": [
+  {
+   "date": "2019-02-19 11:48:12 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/dataController.tests.js": [
+  {
+   "date": "2019-02-19 11:48:12 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/dataSource_bundled.tests.js": [
+  {
+   "date": "2019-02-19 11:48:12 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 13:39:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/store.remote.tests.js": [
+  {
+   "date": "2019-02-19 11:48:12 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/utils.recurrence.tests.js": [
+  {
+   "date": "2019-02-18 17:37:20 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/tagBox.tests.js": [
+  {
+   "date": "2019-02-18 17:00:54 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-18 10:46:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-15 17:28:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 12:07:04 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/editor.tests.js": [
+  {
+   "date": "2019-02-18 14:40:19 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/date_box/ui.date_box.mask.js": [
+  {
+   "date": "2019-02-18 12:58:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 10:42:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 10:39:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 12:52:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 11:07:47 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/datebox.mask.tests.js": [
+  {
+   "date": "2019-02-18 12:58:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 10:42:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 10:39:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:09:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 12:52:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 11:16:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 16:05:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 11:07:47 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/shared/ui.editor_factory_mixin.js": [
+  {
+   "date": "2019-02-18 12:08:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/date_box/ui.date_box.strategy.date_view.js": [
+  {
+   "date": "2019-02-18 11:00:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 10:57:58 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/popup.js": [
+  {
+   "date": "2019-02-18 11:00:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:24:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:42:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/popup.tests.js": [
+  {
+   "date": "2019-02-18 11:00:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 17:49:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 08:50:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:24:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:42:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/axes/polar_axes.js": [
+  {
+   "date": "2019-02-15 16:50:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/polarAxes.tests.js": [
+  {
+   "date": "2019-02-15 16:50:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/dateBox.less": [
+  {
+   "date": "2019-02-15 16:27:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/points/polar_point.js": [
+  {
+   "date": "2019-02-15 14:04:54 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/polarPoint.tests.js": [
+  {
+   "date": "2019-02-15 14:04:54 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/html_editor/converters/delta.js": [
+  {
+   "date": "2019-02-15 13:21:28 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/htmlEditorParts/converters.tests.js": [
+  {
+   "date": "2019-02-15 13:21:28 +0300",
+   "changes": 1
+  }
+ ],
+ "js/exporter/excel_creator.js": [
+  {
+   "date": "2019-02-15 13:05:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 10:00:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:31:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 08:33:38 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.exporter/excelCreator.tests.js": [
+  {
+   "date": "2019-02-15 13:05:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/dataGrid.export.customizeExcelCell.tests.js": [
+  {
+   "date": "2019-02-15 13:05:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 09:02:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 08:33:38 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/dataGrid.export.tests.js": [
+  {
+   "date": "2019-02-15 13:05:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 14:48:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 08:33:38 +0300",
+   "changes": 1
+  }
+ ],
+ "playground/jquery.html": [
+  {
+   "date": "2019-02-15 11:59:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/axes/base_axis.js": [
+  {
+   "date": "2019-02-15 11:55:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 13:57:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 13:43:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 19:54:36 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 10:28:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 12:01:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 13:50:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/baseAxis.tests.js": [
+  {
+   "date": "2019-02-15 11:55:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 13:57:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 13:43:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 19:54:36 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.dateNavigator.tests.js": [
+  {
+   "date": "2019-02-15 10:32:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/chart_components/multi_axes_synchronizer.js": [
+  {
+   "date": "2019-02-14 18:39:55 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/multiAxesSynchronizer.tests.js": [
+  {
+   "date": "2019-02-14 18:39:55 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/export.integration.tests.js": [
+  {
+   "date": "2019-02-14 18:38:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 15:56:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/points/bar_point.js": [
+  {
+   "date": "2019-02-14 17:42:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/barPoint.tests.js": [
+  {
+   "date": "2019-02-14 17:42:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/symbolPoint.tests.js": [
+  {
+   "date": "2019-02-14 17:42:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.table_creator.js": [
+  {
+   "date": "2019-02-14 16:22:33 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.workSpace.tests.js": [
+  {
+   "date": "2019-02-14 16:22:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/window.js": [
+  {
+   "date": "2019-02-14 15:56:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scheduler/ui.scheduler.recurrence_editor.js": [
+  {
+   "date": "2019-02-14 14:50:07 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/recurrenceEditor.tests.js": [
+  {
+   "date": "2019-02-14 14:50:07 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/checkbox.tests.js": [
+  {
+   "date": "2019-02-14 11:48:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 11:01:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/radioButton.tests.js": [
+  {
+   "date": "2019-02-14 11:48:44 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-14 11:01:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/check_box.js": [
+  {
+   "date": "2019-02-14 11:01:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/radio_group/radio_button.js": [
+  {
+   "date": "2019-02-14 11:01:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chartParts/commons.js": [
+  {
+   "date": "2019-02-14 09:27:40 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chartSync.tests.js": [
+  {
+   "date": "2019-02-14 09:27:40 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 15:15:02 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/polarChart.tests.js": [
+  {
+   "date": "2019-02-14 09:27:40 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/vector_map/legend.js": [
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/title.integration.tests.js": [
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.vectorMap/legend.tests.js": [
+  {
+   "date": "2019-02-13 21:44:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/htmlEditorParts/events.tests.js": [
+  {
+   "date": "2019-02-13 18:06:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-05 09:22:23 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/overlay/z_index.js": [
+  {
+   "date": "2019-02-13 16:32:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 15:50:50 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/drawer.less": [
+  {
+   "date": "2019-02-13 15:55:47 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/drawer.tests.js": [
+  {
+   "date": "2019-02-13 15:55:47 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 13:10:54 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/axes/xy_axes.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 10:28:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:31:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/points/range_symbol_point.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/series/scatter_series.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/translators/translator2d.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 13:50:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/chartIntegration.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chart.part5.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/barSeries.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/basePoint.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/financialPoint.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/rangeDataCalculator.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/rangePoint.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core.series/scatterSeries.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/axesTicksGeneration.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/axisDrawing.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-12 10:28:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 12:01:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 11:19:33 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:31:27 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/translator2D.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-22 13:50:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/xyAxes.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 12:01:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.rangeSelector/common_new.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.rangeSelector/slidersController.tests.js": [
+  {
+   "date": "2019-02-13 12:54:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/dropDownEditor.material.less": [
+  {
+   "date": "2019-02-13 11:17:31 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/popover.material.less": [
+  {
+   "date": "2019-02-13 11:17:31 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-11 12:12:36 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.data_controller.js": [
+  {
+   "date": "2019-02-12 23:21:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-08 19:23:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 18:08:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/errorHandling.tests.js": [
+  {
+   "date": "2019-02-12 17:50:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.sparklines/sparklineTooltip.tests.js": [
+  {
+   "date": "2019-02-12 16:42:19 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/fixedColumns.tests.js": [
+  {
+   "date": "2019-02-12 05:26:50 -0800",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 14:06:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/exporter/excel/excel.doc_comments.js": [
+  {
+   "date": "2019-02-12 15:39:32 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/axes/tick.js": [
+  {
+   "date": "2019-02-12 10:28:59 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/array_compare.js": [
+  {
+   "date": "2019-02-11 18:07:42 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/autocomplete.tests.js": [
+  {
+   "date": "2019-02-11 12:33:32 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chart.part3.tests.js": [
+  {
+   "date": "2019-02-11 10:56:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.performance/overlaysStyleRecalculations.tests.js": [
+  {
+   "date": "2019-02-08 17:49:53 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-07 10:01:54 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.export.js": [
+  {
+   "date": "2019-02-08 09:02:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/dataGridExportTestsHelper.js": [
+  {
+   "date": "2019-02-08 09:02:01 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 08:33:38 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/overlay/utils.js": [
+  {
+   "date": "2019-02-07 15:50:50 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/stateStoring.tests.js": [
+  {
+   "date": "2019-02-07 14:06:13 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 12:36:51 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/date_box/ui.date_box.mask.parts.js": [
+  {
+   "date": "2019-02-07 14:09:43 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 11:16:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 16:05:52 +0300",
+   "changes": 1
+  }
+ ],
+ "js/exporter/file_saver.js": [
+  {
+   "date": "2019-02-07 14:07:56 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.exporter/fileSaver.tests.js": [
+  {
+   "date": "2019-02-07 14:07:56 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/axes/constant_line.js": [
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/axisFormatting.tests.js": [
+  {
+   "date": "2019-02-07 13:26:45 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/pager.js": [
+  {
+   "date": "2019-02-07 11:28:43 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/pager.tests.js": [
+  {
+   "date": "2019-02-07 11:28:43 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/loadingIndicator.integration.tests.js": [
+  {
+   "date": "2019-02-07 11:23:47 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/html_editor/modules/widget_collector.js": [
+  {
+   "date": "2019-02-07 11:08:35 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/editing.tests.js": [
+  {
+   "date": "2019-02-06 12:37:19 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.selection.js": [
+  {
+   "date": "2019-02-06 09:20:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:47:46 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 11:34:50 +0300",
+   "changes": 1
+  }
+ ],
+ ".drone.yml": [
+  {
+   "date": "2019-02-06 09:16:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 13:47:28 +0300",
+   "changes": 1
+  }
+ ],
+ ".travis.yml": [
+  {
+   "date": "2019-02-06 09:16:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 13:47:28 +0300",
+   "changes": 1
+  }
+ ],
+ "build/gulp/npm.js": [
+  {
+   "date": "2019-02-06 09:16:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-02-01 13:24:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  }
+ ],
+ "docker-ci.sh": [
+  {
+   "date": "2019-02-06 09:16:07 +0300",
+   "changes": 1
+  }
+ ],
+ "shippable.yml": [
+  {
+   "date": "2019-02-06 09:16:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 13:47:28 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/export.tests.js": [
+  {
+   "date": "2019-02-05 15:15:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 19:03:04 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 15:02:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docObjectsBaseChart.js": [
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docObjectsDxFunnel.js": [
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docObjectsDxPieChart.js": [
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/docs/docObjectsDxVectorMap.js": [
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.funnel/funnel.legend.tests.js": [
+  {
+   "date": "2019-02-04 16:45:06 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/gauges/tracker.js": [
+  {
+   "date": "2019-02-04 10:37:57 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/vector_map/tracker.js": [
+  {
+   "date": "2019-02-04 10:37:57 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.gauges/tracker.tests.js": [
+  {
+   "date": "2019-02-04 10:37:57 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.sparklines/baseSparklineTooltipEvents.tests.js": [
+  {
+   "date": "2019-02-04 10:37:57 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.vectorMap/tracker.tests.js": [
+  {
+   "date": "2019-02-04 10:37:57 +0300",
+   "changes": 1
+  }
+ ],
+ "build/gulp/ts.js": [
+  {
+   "date": "2019-02-01 13:24:21 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/slider/ui.slider.js": [
+  {
+   "date": "2019-02-01 12:59:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-31 15:55:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 14:10:34 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/slider.tests.js": [
+  {
+   "date": "2019-02-01 12:59:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 14:10:34 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/form.material.less": [
+  {
+   "date": "2019-01-31 16:27:56 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 17:35:16 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/validation.material.less": [
+  {
+   "date": "2019-01-31 16:27:56 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/selectBox.tests.js": [
+  {
+   "date": "2019-01-31 13:15:14 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 13:20:30 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/date_box/ui.date_box.strategy.list.js": [
+  {
+   "date": "2019-01-31 11:46:45 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/chart_components/tracker.js": [
+  {
+   "date": "2019-01-30 15:23:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 10:31:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/tracker.tests.js": [
+  {
+   "date": "2019-01-30 15:23:09 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-30 10:31:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/date_serialization.js": [
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/hierarchical_collection/ui.data_adapter.js": [
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/menu/ui.menu.js": [
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/tree_map/plain_data_source.js": [
+  {
+   "date": "2019-01-30 15:13:42 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/validation.less": [
+  {
+   "date": "2019-01-30 14:10:34 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/slider.generic.less": [
+  {
+   "date": "2019-01-30 14:10:34 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/slider.material.less": [
+  {
+   "date": "2019-01-30 14:10:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 18:34:07 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/slider.markup.tests.js": [
+  {
+   "date": "2019-01-30 14:10:34 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chart.part6.tests.js": [
+  {
+   "date": "2019-01-30 10:31:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.adaptivity.js": [
+  {
+   "date": "2019-01-30 08:47:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.column_headers.js": [
+  {
+   "date": "2019-01-29 16:56:41 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.knockout/dataGrid.tests.js": [
+  {
+   "date": "2019-01-29 16:56:41 +0200",
+   "changes": 1
+  }
+ ],
+ "js/ui/accordion.js": [
+  {
+   "date": "2019-01-29 15:35:59 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/accordion.tests.js": [
+  {
+   "date": "2019-01-29 15:35:59 +0300",
+   "changes": 1
+  }
+ ],
+ "ports.json": [
+  {
+   "date": "2019-01-29 13:48:48 +0300",
+   "changes": 1
+  }
+ ],
+ "README.md": [
+  {
+   "date": "2019-01-29 13:47:28 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/validation_engine.js": [
+  {
+   "date": "2019-01-29 12:40:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/animation/fx.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/renderer_base.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/browser.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/html_parser.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/string.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/utils.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/localization/number.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/ssrEmulator.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.jquery/template.tests.js": [
+  {
+   "date": "2019-01-29 11:40:17 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/exporter/image_creator.js": [
+  {
+   "date": "2019-01-29 10:00:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 14:48:08 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:56:15 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/popup.less": [
+  {
+   "date": "2019-01-28 18:34:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:24:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:42:15 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/popup.generic.less": [
+  {
+   "date": "2019-01-28 18:34:07 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/popup.material.less": [
+  {
+   "date": "2019-01-28 18:34:07 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 12:01:30 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.selection.js": [
+  {
+   "date": "2019-01-28 18:08:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.validating.js": [
+  {
+   "date": "2019-01-28 18:08:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 15:27:50 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.aspnet/aspnet.tests.js": [
+  {
+   "date": "2019-01-28 15:33:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.exporter/imageCreator.tests.js": [
+  {
+   "date": "2019-01-28 14:48:08 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/number_box/number_box.caret.js": [
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 16:28:23 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.angular/widgets.tests.js": [
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 10:36:03 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/textEditorParts/mask.tests.js": [
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/filterBuilderParts/markupTests.js": [
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/mapParts/googleStaticTests.js": [
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/treeViewParts/lazyRendering.js": [
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui/hierarchicalCollectionWidgetParts/hierarchicalDataAdapter.js": [
+  {
+   "date": "2019-01-28 13:43:25 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui/keyboardProcessor.tests.js": [
+  {
+   "date": "2019-01-28 13:20:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui/themes.tests.js": [
+  {
+   "date": "2019-01-28 12:50:56 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.adaptivity.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.base.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.column_chooser.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.column_fixing.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.column_headers.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.columns_controller.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.columns_resizing_reordering.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.context_menu.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.core.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.editing.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.editor_factory.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.error_handling.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.filter_builder.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.filter_panel.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.filter_row.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.filter_sync.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.focus.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.grid_view.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.header_filter.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.header_panel.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.keyboard_navigation.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.master_detail.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.pager.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.rows.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.search.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.sorting.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.state_storing.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.validating.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.virtual_columns.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_list/ui.tree_list.virtual_scrolling.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/gridView.tests.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/headerPanel.tests.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/rows.tests.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/selection.tests.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/stateStoring.tests.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.treeList/treeList.markup.tests.js": [
+  {
+   "date": "2019-01-28 12:23:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/vector_map.utils/parser-dbf.js": [
+  {
+   "date": "2019-01-28 11:42:56 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/vector_map.utils/parser-shp.js": [
+  {
+   "date": "2019-01-28 11:42:56 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.core/component.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.events/eventsInteraction.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/calendar.markup.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.RTL.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.allDayAppointments.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.base.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-21 10:07:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.dstAppointments.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.multiWeekAppointments.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.recurrenceRuleValidation.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.resources.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.scheduler/integration.viewSwitcher.tests.js": [
+  {
+   "date": "2019-01-28 11:30:21 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/sortable.tests.js": [
+  {
+   "date": "2019-01-28 10:58:39 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.pivotGrid/store.xmla.tests.js": [
+  {
+   "date": "2019-01-28 10:58:39 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/filter_builder/filter_builder.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 13:21:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 12:05:48 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 13:21:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:01:49 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.editor_factory.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.filter_row.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/scroll_view/ui.scrollable.simulated.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/text_box/text_box.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/widget/ui.keyboard_processor.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/calendarFixtures.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/keyboardMock.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.events/eventsEngine.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/editorFactory.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/filterRow.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/calendar.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 17:46:59 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/calendarViews.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/colorBox.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/colorView.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/dropDownBox.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:24:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:42:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/textEditorParts/common.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/textbox.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.form/formLayoutManager.tests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 12:26:33 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/filterBuilderParts/keyboardNavigation.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:01:49 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/listParts/editingTests.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/treeViewParts/keyboardNavigation.js": [
+  {
+   "date": "2019-01-28 09:44:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.events/drag.tests.js": [
+  {
+   "date": "2019-01-25 18:29:18 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.events/pointerParts/msPointerTests.js": [
+  {
+   "date": "2019-01-25 18:29:18 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/selection.tests.js": [
+  {
+   "date": "2019-01-25 15:47:39 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 11:34:50 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/support.js": [
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 23:52:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/events/pointer.js": [
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  }
+ ],
+ "js/events/pointer/mspointer.js": [
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/list.less": [
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.events/pointer.tests.js": [
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.events/pointerParts/strategySelectionTests.js": [
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.utils/utils.support.tests.js": [
+  {
+   "date": "2019-01-25 14:11:24 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 23:52:42 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/ajax.js": [
+  {
+   "date": "2019-01-25 11:34:41 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/odata/utils.js": [
+  {
+   "date": "2019-01-25 11:34:41 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:15:25 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chart.part4.tests.js": [
+  {
+   "date": "2019-01-25 11:34:41 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/iterator.js": [
+  {
+   "date": "2019-01-25 10:36:03 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.columns_controller.js": [
+  {
+   "date": "2019-01-25 10:36:03 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/custom_store.js": [
+  {
+   "date": "2019-01-24 18:13:09 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.data/odataQuery.tests.js": [
+  {
+   "date": "2019-01-24 16:57:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-24 13:43:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:15:25 +0300",
+   "changes": 1
+  }
+ ],
+ "CONTRIBUTING.md": [
+  {
+   "date": "2019-01-24 16:49:38 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/chart_components/scroll_bar.js": [
+  {
+   "date": "2019-01-24 16:35:36 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/scrollBar.tests.js": [
+  {
+   "date": "2019-01-24 16:35:36 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/exporter/excel/excel.fill_helper.js": [
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/shared/grouped_data_converter_mixin.js": [
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  }
+ ],
+ "themebuilder/modules/metadata-loader.js": [
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  }
+ ],
+ "themebuilder/modules/metadata-repository.js": [
+  {
+   "date": "2019-01-24 15:47:22 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/config.js": [
+  {
+   "date": "2019-01-24 13:43:19 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/odata/context.js": [
+  {
+   "date": "2019-01-24 13:43:19 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/odata/mixins.js": [
+  {
+   "date": "2019-01-24 13:43:19 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/odata/query_adapter.js": [
+  {
+   "date": "2019-01-24 13:43:19 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/odata/store.js": [
+  {
+   "date": "2019-01-24 13:43:19 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.data/odataStore.tests.js": [
+  {
+   "date": "2019-01-24 13:43:19 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:15:25 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/filter_builder/utils.js": [
+  {
+   "date": "2019-01-24 08:50:38 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 11:41:59 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/filterBuilder.tests.js": [
+  {
+   "date": "2019-01-24 08:50:38 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/filterBuilderParts/utilsTests.js": [
+  {
+   "date": "2019-01-24 08:50:38 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.filter_sync.js": [
+  {
+   "date": "2019-01-24 08:46:35 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 11:41:59 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/textEditor.generic.less": [
+  {
+   "date": "2019-01-23 15:46:14 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/size.js": [
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:24:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:42:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.core/utils.dom.tests.js": [
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:24:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:42:15 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.core/utils.size.tests.js": [
+  {
+   "date": "2019-01-23 13:50:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 13:24:37 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-17 15:42:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/data/store_helper.js": [
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/slide_out.js": [
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.data/storeArray.tests.js": [
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/slideOut.tests.js": [
+  {
+   "date": "2019-01-23 12:33:11 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.grouping.js": [
+  {
+   "date": "2019-01-22 16:47:43 +0200",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-11 08:49:39 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/common/button.less": [
+  {
+   "date": "2019-01-22 15:59:47 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/generic/buttonGroup.generic.less": [
+  {
+   "date": "2019-01-21 17:30:59 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/buttonGroup.material.less": [
+  {
+   "date": "2019-01-21 17:30:59 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.editors/numberBoxParts/mask.caret.tests.js": [
+  {
+   "date": "2019-01-18 16:28:23 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/axes/axes_constants.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/axes/strip.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/axes/tick_generator.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/chart_components/crosshair.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/core/utils.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "js/viz/translators/range.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/pointerMock.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/chart.visualRangeUpdate.tests.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.charts/crosshair.tests.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.core/range.tests.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.rangeSelector/common.part1.tests.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.viz.rangeSelector/common.part2.tests.js": [
+  {
+   "date": "2019-01-18 15:41:44 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/columnChooserModule.tests.js": [
+  {
+   "date": "2019-01-18 12:54:34 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/aggregate_calculator.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.adaptivity.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.base.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.column_chooser.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.column_fixing.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.column_headers.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.columns_resizing_reordering.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.context_menu.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.core.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.data_controller.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.data_source_adapter.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.editing.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.editor_factory.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.error_handling.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.filter_builder.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.filter_panel.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.filter_row.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.filter_sync.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.focus.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.grid_view.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.grouping.collapsed.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.grouping.core.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.header_filter.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.header_panel.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.keyboard_navigation.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.master_detail.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.pager.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.rows.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.search.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.selection.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.sorting.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.state_storing.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.utils.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.validating.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.virtual_columns.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/data_grid/ui.data_grid.virtual_scrolling.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/aggregateCalculator.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/columnsResizingReorderingModule.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/columnsView.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/contextMenuView.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/dataGrid.markup.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/exportController.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/filterPanel.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 11:41:59 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/headerFilter.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/headerPanel.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/pagerView.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/summaryModule.tests.js": [
+  {
+   "date": "2019-01-18 09:38:29 +0300",
+   "changes": 1
+  }
+ ],
+ "js/localization/ldml/date.parser.js": [
+  {
+   "date": "2019-01-17 16:05:52 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.localization/ldml.tests.js": [
+  {
+   "date": "2019-01-17 16:05:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-14 12:53:13 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 14:23:20 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/optionChanged_bundled.tests.js": [
+  {
+   "date": "2019-01-17 15:31:00 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.column_chooser.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.context_menu.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.error_handling.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-15 16:11:17 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.filter_panel.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.header_filter.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.header_filter_core.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.header_panel.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.master_detail.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.modules.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.pager.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.search.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.sorting.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.sorting_mixin.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.state_storing.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-16 12:36:51 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.state_storing_core.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.utils.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.virtual_columns.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.virtual_scrolling_core.js": [
+  {
+   "date": "2019-01-17 14:29:15 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 17:59:10 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-10 13:56:28 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:47:16 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.data/odataCommonOData.tests.js": [
+  {
+   "date": "2019-01-17 14:15:25 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/date_box/ui.date_box.strategy.calendar_with_time.js": [
+  {
+   "date": "2019-01-16 16:50:28 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/set_template_engine.js": [
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/widget/jquery.template.js": [
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/widget/template.js": [
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/widget/template_engine_registry.js": [
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/widget/template_engines.js": [
+  {
+   "date": "2019-01-16 14:08:10 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/error.js": [
+  {
+   "date": "2019-01-15 16:11:17 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/filterBuilderParts/commonTests.js": [
+  {
+   "date": "2019-01-15 13:21:52 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:01:49 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/calendar/ui.calendar.js": [
+  {
+   "date": "2019-01-14 17:46:59 +0300",
+   "changes": 1
+  }
+ ],
+ "styles/widgets/material/lookup.material.less": [
+  {
+   "date": "2019-01-14 11:58:59 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/grid_core/ui.grid_core.filter_custom_operations.js": [
+  {
+   "date": "2019-01-14 11:41:59 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets.dataGrid/filterSync.tests.js": [
+  {
+   "date": "2019-01-14 11:41:59 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/popover.js": [
+  {
+   "date": "2019-01-11 15:26:32 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/popover.tests.js": [
+  {
+   "date": "2019-01-11 15:26:32 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tile_view.js": [
+  {
+   "date": "2019-01-11 15:00:42 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/tileView.tests.js": [
+  {
+   "date": "2019-01-11 15:00:42 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/filterBuilderParts/eventsTests.js": [
+  {
+   "date": "2019-01-10 13:21:02 +0300",
+   "changes": 1
+  },
+  {
+   "date": "2019-01-09 17:01:49 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/helpers/filterBuilderTestData.js": [
+  {
+   "date": "2019-01-09 17:01:49 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/filterBuilderParts/constants.js": [
+  {
+   "date": "2019-01-09 17:01:49 +0300",
+   "changes": 1
+  }
+ ],
+ "testing/tests/DevExpress.ui.widgets/filterBuilderParts/helpers.js": [
+  {
+   "date": "2019-01-09 17:01:49 +0300",
+   "changes": 1
+  }
+ ],
+ "js/core/utils/common.js": [
+  {
+   "date": "2019-01-09 11:41:46 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/context_menu/ui.menu_base.js": [
+  {
+   "date": "2019-01-09 11:41:46 +0300",
+   "changes": 1
+  }
+ ],
+ "js/ui/tree_view/ui.tree_view.base.js": [
+  {
+   "date": "2019-01-09 11:41:46 +0300",
+   "changes": 1
+  }
+ ]
+}

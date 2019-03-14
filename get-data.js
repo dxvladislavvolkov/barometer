@@ -5,11 +5,13 @@ const git = simpleGit(workingDirecotory);
 
 const files = {};
 
-module.export = () => {
+module.exports = () => {
     return new Promise((resolve, reject) => {
+        const date = new Date();
+        const endDate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()} ${date.getHours()}:${date.getMinutes()}`;
         git.log({
-            '--after': '2019-03-01 00:00',
-            '--before': '2019-03-14 23:59'
+            '--after': '2019-01-01 00:00',
+            '--before': endDate
         }, (err, result) => {
             async.each(result.all, (commit, callback) => {
                 git.show([ commit.hash ], (err, result) => {
@@ -22,7 +24,7 @@ module.export = () => {
 
                         fileCommits.push({
                             date: commit.date,
-                            changes: 40
+                            changes: 1
                         });
                     })
                     callback();
