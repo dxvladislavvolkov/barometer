@@ -1,140 +1,93 @@
 // Docs here: https://esprima.readthedocs.io/en/latest/
 import * as esprima from "esprima";
 import { IBlock } from "./block";
-
-enum TokenType {
-    Unknown,
-    Punctuator,
+import {
+    VariableDeclaration,
+    Statement,
+    Expression,
+    ObjectExpression,
+    FunctionExpression,
+    ModuleDeclaration,
     Identifier,
-    Keyword
-}
+    Pattern,
+    Property
+} from "estree";
 
-interface IPos {
-    line: number;
-    column: number;
-}
+type INode = (Statement | Expression | ModuleDeclaration | Property | Pattern);
+interface IBlockEntry {
+    name: string;
+    node: INode;
+};
 
+class Discoverer {
 
-interface IToken {
-    type: TokenType;
-    rawType: string;
-    value: string;
-    // range: {
-    //     start: number;
-    //     end: number;
-    // },
-    loc: {
-        start: IPos,
-        end: IPos
-    }
-}
-
-function tokenize(text: string): IToken[] {
-    const rawTokens = esprima.tokenize(text, { range: true, loc: true });
-
-    return rawTokens.map(t => ({
-        type: parseType(t.type),
-        rawType: t.type,
-        value: t.value,
-        // range: {
-        //     start: (t as any).range[0],
-        //     end: (t as any).range[1]
-        // },
-        loc: (t as any).loc
-    }));
-}
-
-function parseType(value: string): TokenType {
-    switch (value) {
-        case "Punctuator":
-            return TokenType.Punctuator;
-
-        case "Identifier":
-            return TokenType.Identifier;
-
-        case "Keyword":
-            return TokenType.Keyword;
+    constructor() {
+        this.processEntry = this.processEntry.bind(this)
     }
 
-    return TokenType.Unknown;
-}
+    private _blocks: IBlock[] = [];
 
-function discoverFunction(tokens: IToken[], index: number): IBlock | undefined {
-    const token = tokens[index];
+    public discover(entries: INode[]): IBlock[] {
+        this._blocks.length = 0;
 
-    const blockStartIndex = findNextToken(tokens, index, isBlockStart);
+        entries
+            .map(node => ({
+                name: undefined, // no need for root entries names
+                node
+            }))
+            .forEach(this.processEntry)
 
-    if (token.type === TokenType.Keyword && token.value === "function") {
-        const nameToken = tokens[index - 2];
-        if (nameToken.type !== TokenType.Identifier) {
-            throw new Error("Function name expected");
+        return this._blocks;
+    }
+
+    private processEntries<INodeType>(
+        nodes: INodeType[],
+        idExpr: (node: INodeType) => Identifier,
+        nodeExpr: (node: INodeType) => INode
+    ): void {
+        nodes
+            .filter(d => idExpr(d).type === "Identifier")
+            .map(d => ({
+                name: idExpr(d).name,
+                node: nodeExpr(d)
+            }))
+            .forEach(this.processEntry)
+    }
+
+    private processEntry(entry: IBlockEntry): void {
+        switch (entry.node.type) {
+
+            case "VariableDeclaration":
+                this.processEntries(
+                    (entry.node as VariableDeclaration).declarations,
+                    d => d.id as Identifier,
+                    d => d.init
+                );
+                return;
+
+            case "ObjectExpression":
+                this.processEntries(
+                    (entry.node as ObjectExpression).properties,
+                    p => p.key as Identifier,
+                    p => p.value
+                );
+                return;
+
+            case "FunctionExpression":
+                this._blocks.push({
+                    name: entry.name,
+                    startLine: (entry.node as FunctionExpression).loc.start.line,
+                    endLine: (entry.node as FunctionExpression).loc.end.line
+                });
+                return;
         }
-
-        let openedBlocks = 1;
-        const blockEndIndex = findNextToken(tokens, blockStartIndex + 1, (t: IToken) => {
-            if(isBlockStart(t)) {
-                openedBlocks += 1;
-            }
-
-            if(isBlockEnd(t)){
-                openedBlocks -=1;
-            }
-
-            return openedBlocks === 0;
-        });
-
-        return {
-            name: nameToken.value,
-            startLine: token.loc.end.line,
-            endLine: tokens[blockEndIndex].loc.start.line
-        };
     }
-
-    return undefined;
-}
-
-function findNextToken(
-    tokens: IToken[],
-    startIndex: number,
-    predicate: (token: IToken) => boolean
-): number {
-    let currentIndex = startIndex;
-    const maxIndex = tokens.length - 1;
-    while (currentIndex <= maxIndex) {
-        if (predicate(tokens[currentIndex])) {
-            break;
-        }
-
-        currentIndex += 1;
-    }
-
-    if (currentIndex == maxIndex) {
-        throw new Error("Token not found");
-    }
-
-    return currentIndex;
-}
-
-function isBlockStart(token: IToken) {
-    return token.type === TokenType.Punctuator && token.value === "{";
-}
-
-function isBlockEnd(token: IToken) {
-    return token.type === TokenType.Punctuator && token.value === "}";
 }
 
 function discover(text: string): IBlock[] {
-    const tokens = tokenize(text);
-    const functions: IBlock[] = [];
+    const script = esprima.parseModule(text, { loc: true, tokens: true });
 
-    tokens.forEach((_, index) => {
-        const func = discoverFunction(tokens, index);
-        if (func) {
-            functions.push(func);
-        }
-    });
-
-    return functions;
+    return new Discoverer().discover(script.body);
 }
 
 export {

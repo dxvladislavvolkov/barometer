@@ -2,55 +2,75 @@ import { discover, IBlock } from "./block-discoverer";
 
 describe("js discoverer", () => {
 
-    it("discovers a method", () => {
+    const _text = `{
 
-        const _text = `{
+        /* without params */
+        targetFunc1: function() {
+            const x = 123;
+            // some code goes here
+        },
 
-            /* without params */
-            targetFunc1: function() {
-                const x = 123;
-                // some code goes here
-            },
+        /* with params */
+        targetFunc2: function(x, y) {
+            const x = 123;
+            // some code goes here
+        },
 
-            /* with params */
-            targetFunc2: function(x, y) {
-                const x = 123;
-                // some code goes here
-            },
+        /* without params */
+        targetFunc3() {
+            const x = 123;
+            // some code goes here
+        },
 
-            /* without params */
-            targetFunc3() {
-                const x = 123;
-                // some code goes here
-            },
+        /* with params */
+        targetFunc4(x, y) {
+            const x = 123;
+            // some code goes here
+        },
 
-            /* with params */
-            targetFunc4(x, y) {
-                const x = 123;
-                // some code goes here
-            },
-
-            nonFunc1: 123,
-        }
+        nonFunc1: 123,
+    }
 `;
-        const text = `{
 
+    it("discovers a function prop", () => {
+        const text = `var _ = {
             /* without params */
-            targetFunc1: function() {
+            targetFunc: function() {
                 const x = 123;
                 // some code goes here
             },
 
-            nonFunc1: 123,
-        }
-`;
+            nonFunc: 123,
+        }`;
 
         const actual = discover(text);
         const expected: IBlock[] = [
             {
-                name: "targetFunc1",
-                startLine: 4,
-                endLine: 7
+                name: "targetFunc",
+                startLine: 3,
+                endLine: 6
+            }
+        ];
+        expect(actual).toEqual(expected);
+    });
+
+    it("discovers a function prop (es6)", () => {
+        const text = `var _ = {
+            /* without params */
+            targetFunc() {
+                const x = 123;
+                // some code goes here
+            },
+
+            nonFunc: 123,
+        }`;
+
+        const actual = discover(text);
+        const expected: IBlock[] = [
+            {
+                name: "targetFunc",
+                startLine: 3,
+                endLine: 6
             }
         ];
         expect(actual).toEqual(expected);
