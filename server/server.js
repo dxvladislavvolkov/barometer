@@ -4,6 +4,7 @@ const fs = require('fs');
 const app = express();
 const getData = require('../get-data');
 //const addRepo = require('../add-repo');
+let cachedData;
 
 const corsOptions = {
     origin: 'http://localhost:4200',
@@ -18,19 +19,17 @@ const readData = (withFix) => {
                 resolve('data cashed');
             });
         } else {
-            fs.readFile('data.json', (err, res) => {
+            fs.readFile('server/data.json', (err, res) => {
                 cachedData = res.toString();
                 resolve('data cashed');
             });
         }
-        
     });
 };
 
 const updateData = (withFix) => {
     return new Promise((resolve, reject) => {
         getData(withFix).then((data) => {
-
             if(withFix) {
                 fs.writeFile(`dataWithFixes.json`, JSON.stringify(data, null, ' '), ()=>{
                     readData().then(() => {

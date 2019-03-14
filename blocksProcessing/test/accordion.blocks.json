@@ -1,0 +1,181 @@
+{
+  "fileLinesCount": 529,
+  "blocksLinesCount": 430,
+  "blocks": [
+    {
+      "name": "_getDefaultOptions",
+      "startLine": 42,
+      "endLine": 148
+    },
+    {
+      "name": "_defaultOptionsRules",
+      "startLine": 150,
+      "endLine": 181
+    },
+    {
+      "name": "_itemElements",
+      "startLine": 183,
+      "endLine": 185
+    },
+    {
+      "name": "_init",
+      "startLine": 187,
+      "endLine": 198
+    },
+    {
+      "name": "_initTemplates",
+      "startLine": 200,
+      "endLine": 229
+    },
+    {
+      "name": "_initMarkup",
+      "startLine": 231,
+      "endLine": 238
+    },
+    {
+      "name": "_render",
+      "startLine": 240,
+      "endLine": 243
+    },
+    {
+      "name": "_itemDataKey",
+      "startLine": 245,
+      "endLine": 247
+    },
+    {
+      "name": "_itemClass",
+      "startLine": 249,
+      "endLine": 251
+    },
+    {
+      "name": "_itemContainer",
+      "startLine": 253,
+      "endLine": 255
+    },
+    {
+      "name": "_itemTitles",
+      "startLine": 257,
+      "endLine": 259
+    },
+    {
+      "name": "_itemContents",
+      "startLine": 261,
+      "endLine": 263
+    },
+    {
+      "name": "_getItemData",
+      "startLine": 265,
+      "endLine": 267
+    },
+    {
+      "name": "_executeItemRenderAction",
+      "startLine": 269,
+      "endLine": 275
+    },
+    {
+      "name": "_itemSelectHandler",
+      "startLine": 277,
+      "endLine": 283
+    },
+    {
+      "name": "_afterItemElementDeleted",
+      "startLine": 285,
+      "endLine": 288
+    },
+    {
+      "name": "_renderItemContent",
+      "startLine": 290,
+      "endLine": 314
+    },
+    {
+      "name": "_attachItemTitleClickAction",
+      "startLine": 316,
+      "endLine": 321
+    },
+    {
+      "name": "_itemTitleClickHandler",
+      "startLine": 323,
+      "endLine": 325
+    },
+    {
+      "name": "_renderSelection",
+      "startLine": 327,
+      "endLine": 332
+    },
+    {
+      "name": "_updateSelection",
+      "startLine": 334,
+      "endLine": 337
+    },
+    {
+      "name": "_updateItems",
+      "startLine": 339,
+      "endLine": 357
+    },
+    {
+      "name": "_updateItemHeightsWrapper",
+      "startLine": 359,
+      "endLine": 367
+    },
+    {
+      "name": "_updateItemHeights",
+      "startLine": 369,
+      "endLine": 383
+    },
+    {
+      "name": "_updateItemHeight",
+      "startLine": 385,
+      "endLine": 398
+    },
+    {
+      "name": "_animateItem",
+      "startLine": 400,
+      "endLine": 424
+    },
+    {
+      "name": "_splitFreeSpace",
+      "startLine": 426,
+      "endLine": 432
+    },
+    {
+      "name": "_calculateFreeSpace",
+      "startLine": 434,
+      "endLine": 448
+    },
+    {
+      "name": "_visibilityChanged",
+      "startLine": 450,
+      "endLine": 454
+    },
+    {
+      "name": "_dimensionChanged",
+      "startLine": 456,
+      "endLine": 458
+    },
+    {
+      "name": "_clean",
+      "startLine": 460,
+      "endLine": 463
+    },
+    {
+      "name": "_optionChanged",
+      "startLine": 465,
+      "endLine": 485
+    },
+    {
+      "name": "expandItem",
+      "startLine": 493,
+      "endLine": 499
+    },
+    {
+      "name": "collapseItem",
+      "startLine": 507,
+      "endLine": 513
+    },
+    {
+      "name": "updateDimensions",
+      "startLine": 520,
+      "endLine": 522
+    }
+  ]
+}

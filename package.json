@@ -4,19 +4,26 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@octokit/rest": "^16.18.0",
     "async": "^2.6.2",
     "simple-git": "^1.107.0"
   },
   "devDependencies": {
+    "@types/esprima": "^4.0.2",
     "@types/jest": "^24.0.11",
+    "cors": "^2.8.5",
+    "del": "^4.0.0",
+    "esprima": "^4.0.1",
+    "express": "^4.16.4",
     "jest": "^24.5.0",
     "ts-jest": "^24.0.0",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "ts-node": "^8.0.3",
     "typescript": "^3.3.3333"
   },
   "scripts": {
     "test": "jest",
+    "clean-tests": "jest --clearCache",
+    "test-blocks": "ts-node ./blocksProcessing/block-discoverer-test-tool.ts",
     "start-server": "node ./server/server.js"
   },
   "repository": {

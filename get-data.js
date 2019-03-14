@@ -1,9 +1,49 @@
 const simpleGit = require('simple-git');
 const async = require('async');
+const Octokit = require('@octokit/rest');
+const octokit = new Octokit ();
 const workingDirecotory = 'sandbox/DevExtreme';
 const git = simpleGit(workingDirecotory);
 
-const files = {};
+const repoUrl = 'https://github.com/DevExpress/DevExtreme';
+const [ repoOwner, repoName ] = repoUrl.replace('https://github.com/', '').split('/');
+
+const getPullsByPage = (page) => {
+    return octokit.search.issuesAndPullRequests({
+        q: `type:pr state:closed is:merged repo:${repoOwner}/${repoName}`,
+        per_page: 100,
+        page
+    });
+};
+
+const getPulls = () => {
+    const pullsRegistry = {};
+    const registerPulls = (pulls) => {
+        pulls.forEach(pull => {
+            pullsRegistry[pull.number] = pull;
+        });
+    };
+
+    return new Promise((resolve, reject) => {
+        // TODO: Solve rate limit
+        resolve({});
+        return;
+        getPullsByPage(1).then((pulls) => {
+            registerPulls(pulls.data.items);
+            const pagesCount = Math.ceil(pulls.data.total_count / 100);
+            let pageIndex = 2;
+            async.until(() => pageIndex > pagesCount, (callback) => {
+                getPullsByPage(pageIndex).then((pulls) => {
+                    registerPulls(pulls.data.items);
+                    callback();
+                });
+                pageIndex++;
+            }, () => {
+                resolve(pullsRegistry);
+            });
+        });
+    });
+};
 
 module.exports = (withFixes) => {
     return new Promise((resolve, reject) => {
@@ -49,10 +89,9 @@ module.exports = (withFixes) => {
                             });
                         }
                     });
-                    callback();
+                }, () => {
+                    resolve(files);
                 });
-            }, () => {
-                resolve(files);
             });
         });
     })
