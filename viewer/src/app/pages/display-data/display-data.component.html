@@ -1,11 +1,11 @@
 <h2 class="content-block">Commits Data</h2>
 
 <dx-pivot-grid [allowSortingBySummary]="true" [allowSorting]="true" [allowFiltering]="true" [allowExpandAll]="true"
-    rowHeaderLayout="tree" [showBorders]="true" [dataSource]="dataSource" (onCellPrepared)="cellPrepared($event)">
+    rowHeaderLayout="tree" [showBorders]="true" [dataSource]="dataSource" (onCellPrepared)="cellPrepared($event)"
+    height="500px" [showColumnGrandTotals]="false"
+    
+    [showRowGrandTotals]="false"
+    [showRowTotals]="false"
+    [showColumnTotals]="false">
     <dxo-field-chooser [enabled]="false"></dxo-field-chooser>
-
-    <dxo-field-panel [showDataFields]="showDataFields" [showRowFields]="showRowFields"
-        [showColumnFields]="showColumnFields" [showFilterFields]="showFilterFields" [allowFieldDragging]="true"
-        [visible]="true">
-    </dxo-field-panel>
 </dx-pivot-grid>

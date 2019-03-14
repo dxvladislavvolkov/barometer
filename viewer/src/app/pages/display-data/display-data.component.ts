@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Service } from './commits.service';
+import { Service, CommitInfo } from './commits.service';
 
 @Component({
   templateUrl: 'display-data.component.html'
@@ -14,10 +14,10 @@ export class DisplayDataComponent {
     service.getCommits().subscribe((data) => {
       const fileNames = Object.keys(data);
 
-      const res = [];
+      const dataItems = [];
       let maxIndex = 1;
-      fileNames.forEach((fileName) => {
-        const commitInfo = data[fileName];
+      fileNames.forEach((fileName: string) => {
+        const commits = data[fileName];
         const folderNames = fileName.split('/');
         let index = 0;
         const folderObject = folderNames.reduce((acc, item) => {
@@ -28,15 +28,18 @@ export class DisplayDataComponent {
           return acc;
         }, {});
 
-        res.push(...commitInfo.map(item => Object.assign(folderObject, item)));
+        dataItems.push(...commits.map(item => Object.assign({
+          ...folderObject,
+          ...item
+        })));
       })
 
       this.minValue = 0;
-      this.maxValue = res.reduce((acc, item) => acc + item.changes, 0);
+      this.maxValue = 600;
 
       // this.startDate = new Date(Math.min.apply(null, res.map(item => new Date(item.date))));
       // this.endDate = new Date(Math.max.apply(null, res.map(item => new Date(item.date))));
-
+ 
       const fields = [];
       for (let i = 1; i < maxIndex; i++) {
         fields.push({
@@ -53,7 +56,7 @@ export class DisplayDataComponent {
 
         {
           caption: 'Commits',
-          dataField: 'changes',
+          dataField: 'commits',
           dataType: 'number',
           summaryType: "sum",
           area: 'data'
@@ -62,7 +65,10 @@ export class DisplayDataComponent {
 
       this.dataSource = {
         fields,
-        store: res
+        store: dataItems.map(item => Object.assign({
+          commits: 1,
+          changes: item.additions + item.deleteons
+        }, item))
       }
     });
   }

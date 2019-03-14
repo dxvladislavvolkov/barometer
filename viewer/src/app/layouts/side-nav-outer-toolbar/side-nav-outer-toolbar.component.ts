@@ -17,7 +17,7 @@ export class SideNavOuterToolbarComponent implements OnInit {
   menuItems = navigation;
   selectedRoute = '';
 
-  menuOpened: boolean;
+  menuOpened = false;
   temporaryMenuOpened = false;
 
   @Input()
@@ -31,8 +31,6 @@ export class SideNavOuterToolbarComponent implements OnInit {
   constructor(private screen: ScreenService, private router: Router) { }
 
   ngOnInit() {
-    this.menuOpened = this.screen.sizes['screen-large'];
-
     this.router.events.subscribe(val => {
       if (val instanceof NavigationEnd) {
         this.selectedRoute = val.urlAfterRedirects.split('?')[0];
