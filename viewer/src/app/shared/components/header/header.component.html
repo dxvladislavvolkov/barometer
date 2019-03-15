@@ -6,7 +6,7 @@
             widget="dxButton"
             cssClass="menu-button"
             [options]="{
-                icon: 'menu',
+                icon: 'fab fa-cloudscale',
                 stylingMode: 'text',
                 onClick: toggleMenu
             }">
@@ -16,6 +16,16 @@
             cssClass="header-title"
             *ngIf="title"
             [text]="title">
+        </dxi-item>
+        <dxi-item
+            location="before"
+            widget="dxSelectBox"
+            cssClass="repo-selector"
+            [options]="{
+                items: ['DevExpress/DevExtreme', 'angular/angular'],
+                stylingMode: 'outlined',
+                value: 'DevExpress/DevExtreme'
+            }">
         </dxi-item>
     </dx-toolbar>
 </header>
