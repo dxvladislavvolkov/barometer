@@ -22,12 +22,20 @@ export class DisplayDataComponent {
   @ViewChild(DxChartComponent) chart: DxChartComponent;
 
   dataSource: DataSource;
+  _commitDataSubscription: any;
   minValue: number;
   maxValue: number;
 
   constructor(service: Service) {
-    service.getCommits().subscribe((data) => {
-      const fileNames = Object.keys(data);
+    this.prepareData(service.getCommits());
+
+    this._commitDataSubscription = service.commitDataChange.subscribe((value) => {
+        this.prepareData(value);
+    });
+  }
+
+  prepareData(data) {
+    const fileNames = Object.keys(data);
       
       const dataItems = [];
       fileNames.forEach((fileName: string) => {
@@ -72,7 +80,6 @@ export class DisplayDataComponent {
         }, item)),
         filter: ["totalCommits", ">", 50],
       });
-    });
   }
 
   ngAfterViewInit() {

@@ -13,9 +13,13 @@
         </dxi-item>
         <dxi-item
             location="before"
-            cssClass="header-title"
-            *ngIf="title"
-            [text]="title">
+            widget="dxSelectBox"
+            [options]="{
+                width: 200,
+                items: repos,
+                value: repos[0],
+                onValueChanged: selectRepo
+            }">
         </dxi-item>
     </dx-toolbar>
 </header>

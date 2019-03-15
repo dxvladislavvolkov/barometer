@@ -17,17 +17,26 @@ export class DisplayDataComponent {
   @ViewChild(DxPivotGridComponent) pivotGrid: DxPivotGridComponent;
   @ViewChild(DxChartComponent) chart: DxChartComponent;
   dataSource: any;
+  commitData: any;
   minValue: number;
   maxValue: number;
+  _commitDataSubscription: any;
 
   constructor(service: Service) {
-    service.getCommits().subscribe((data) => {
-      const fileNames = Object.keys(data);
+    this.prepareData(service.getCommits());
+
+    this._commitDataSubscription = service.commitDataChange.subscribe((value) => {
+        this.prepareData(value);
+    });
+  }
+
+  prepareData (commitData) {
+    const fileNames = Object.keys(commitData);
  
       const dataItems = [];
       let maxIndex = 1;
       fileNames.forEach((fileName: string) => {
-        const commits = data[fileName];
+        const commits = commitData[fileName];
         const folderNames = fileName.split('/');
         let index = 0;
         const folderObject = folderNames.reduce((acc, item) => {
@@ -81,7 +90,6 @@ export class DisplayDataComponent {
           changes: item.additions + item.deleteons
         }, item))
       });
-    });
   }
 
   ngAfterViewInit() {

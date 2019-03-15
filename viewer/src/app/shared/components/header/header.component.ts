@@ -5,6 +5,8 @@ import { AuthService } from '../../services';
 import { UserPanelModule } from '../user-panel/user-panel.component';
 import { DxButtonModule } from 'devextreme-angular/ui/button';
 import { DxToolbarModule } from 'devextreme-angular/ui/toolbar';
+import { DxSelectBoxModule } from 'devextreme-angular/ui/select-box';
+import { Service } from '../../services/commits.service';
 
 @Component({
   selector: 'app-header',
@@ -22,6 +24,8 @@ export class HeaderComponent {
   @Input()
   title: string;
 
+  repos: string[] = ['DevExtreme', 'Devextreme angular', 'Angular'];
+
   userMenuItems = [{
     text: 'Profile',
     icon: 'user'
@@ -33,17 +37,28 @@ export class HeaderComponent {
     }
   }];
 
-  constructor(private authService: AuthService) { }
+  constructor(private authService: AuthService, private service: Service) { }
 
   toggleMenu = () => {
     this.menuToggle.emit();
   }
+
+  selectRepo = (e) => {
+    this.service.changeRepo(e.value);
+  }
+
+  // updateRepos = () => {
+  //   this.service.getRepos().subscribe((data) => {
+  //     this.repos = data;
+  //   });
+  // }
 }
 
 @NgModule({
   imports: [
     CommonModule,
     DxButtonModule,
+    DxSelectBoxModule,
     UserPanelModule,
     DxToolbarModule
   ],

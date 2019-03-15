@@ -10,10 +10,18 @@ export class DisplayDataComponent {
   dataSource: any;
   minValue: number;
   maxValue: number;
+  _commitDataSubscription: any;
 
   constructor(service: Service) {
-    service.getCommits().subscribe((data) => {
-      const fileNames = Object.keys(data);
+    this.prepareData(service.getCommits());
+
+    this._commitDataSubscription = service.commitDataChange.subscribe((value) => {
+        this.prepareData(value);
+    });    
+  }
+
+  prepareData(data) {
+    const fileNames = Object.keys(data);
 
       const dataItems = [];
 
@@ -60,7 +68,6 @@ export class DisplayDataComponent {
       this.maxValue = 600;
 
       this.dataSource = dataItems;
-    });
   }
 
   log(data) {
