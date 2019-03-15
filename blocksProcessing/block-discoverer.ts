@@ -25,7 +25,7 @@ interface IBlockEntry {
 class Discoverer {
 
     constructor() {
-        this.processEntry = this.processEntry.bind(this)
+        this._processEntry = this._processEntry.bind(this)
     }
 
     private _blocks: IBlock[] = [];
@@ -38,12 +38,12 @@ class Discoverer {
                 name: undefined, // no need for root entries names
                 node
             }))
-            .forEach(this.processEntry)
+            .forEach(this._processEntry)
 
         return this._blocks;
     }
 
-    private processEntries<INodeType>(
+    private _processEntries<INodeType>(
         nodes: INodeType[],
         idExpr: (node: INodeType) => Identifier,
         nodeExpr: (node: INodeType) => INode
@@ -54,10 +54,10 @@ class Discoverer {
                 name: idExpr(d).name,
                 node: nodeExpr(d)
             }))
-            .forEach(this.processEntry)
+            .forEach(this._processEntry)
     }
 
-    private processEntry(entry: IBlockEntry): void {
+    private _processEntry(entry: IBlockEntry): void {
         switch (entry.node.type) {
 
             // target blocks
@@ -80,7 +80,7 @@ class Discoverer {
 
             // containers
             case "VariableDeclaration":
-                this.processEntries(
+                this._processEntries(
                     (entry.node as VariableDeclaration).declarations,
                     d => d.id as Identifier,
                     d => d.init
@@ -88,7 +88,7 @@ class Discoverer {
                 return;
 
             case "ObjectExpression":
-                this.processEntries(
+                this._processEntries(
                     (entry.node as ObjectExpression).properties,
                     p => p.key as Identifier,
                     p => p.value
@@ -102,7 +102,7 @@ class Discoverer {
                         name: undefined, // no names for arguments
                         node: node as Expression
                     }))
-                    .forEach(this.processEntry)
+                    .forEach(this._processEntry)
                 return;
         }
     }
