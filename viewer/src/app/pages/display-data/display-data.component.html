@@ -1,18 +1,38 @@
-<h2 class="content-block">Commits Data</h2>
-
-
-<dx-slider [min]="0" [max]="150" [value]="0" (onValueChanged)="slideChanged($event)">
-    <dxo-tooltip [enabled]="true"></dxo-tooltip>
-</dx-slider>
-
+<div class="dx-fieldset">
+    <div class="dx-field custom-height-slider">
+        <div class="dx-field-label">Commits count</div>
+        <div class="dx-field-value">
+            <dx-slider [min]="0" [max]="150" [(value)]="sliderValue" (onValueChanged)="updateFilter()">
+                <dxo-tooltip [enabled]="false"></dxo-tooltip>
+            </dx-slider>
+        </div>
+    </div>
+    <div class="dx-field">
+        <div class="dx-field-label">Select a Period</div>
+        <div class="dx-field-value">
+            <dx-range-selector [value]="[minDate, maxDate]" (onValueChanged)="onDateChanged($event)">
+                <dxo-margin [top]="0"></dxo-margin>
+                <dxo-scale [startValue]="startDate" [endValue]="endDate" minorTickInterval="day" tickInterval="week">
+                </dxo-scale>
+                <dxo-slider-marker format="monthAndDay"></dxo-slider-marker>
+            </dx-range-selector>
+        </div>
+    </div>
+    <div class="dx-field custom-height-slider">
+        <div class="dx-field-label">Type</div>
+        <div class="dx-field-value">
+                <dx-tag-box [items]="tags" [(value)]="selectedTags" (onValueChanged)="updateFilter()"></dx-tag-box>
+        </div>
+    </div>
+</div>
 
 
 <dx-chart id="sales-chart">
-        <dxo-common-series-settings type="bar"></dxo-common-series-settings>
-        <dxo-size [height]="200"></dxo-size>
-        <dxo-adaptive-layout [width]="450"></dxo-adaptive-layout>
-        <dxo-tooltip [enabled]="true" [customizeTooltip]="customizeTooltip"></dxo-tooltip>
-    </dx-chart>
+    <dxo-common-series-settings type="bar"></dxo-common-series-settings>
+    <dxo-size [height]="200"></dxo-size>
+    <dxo-adaptive-layout [width]="450"></dxo-adaptive-layout>
+    <dxo-tooltip [enabled]="true" [customizeTooltip]="customizeTooltip"></dxo-tooltip>
+</dx-chart>
 
 <dx-pivot-grid [allowSortingBySummary]="true" [allowSorting]="true" [allowFiltering]="true" [allowExpandAll]="true"
     rowHeaderLayout="tree" [showBorders]="true" [dataSource]="dataSource" (onCellPrepared)="cellPrepared($event)"

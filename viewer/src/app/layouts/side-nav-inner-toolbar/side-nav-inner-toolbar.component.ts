@@ -4,6 +4,7 @@ import { ScreenService } from '../../shared/services';
 import { DxDrawerModule } from 'devextreme-angular/ui/drawer';
 import { DxScrollViewModule } from 'devextreme-angular/ui/scroll-view';
 import { DxToolbarModule } from 'devextreme-angular/ui/toolbar';
+import { DxSelectBoxModule } from 'devextreme-angular/ui/select-box';
 import { CommonModule } from '@angular/common';
 
 import { navigation } from '../../app-navigation';
@@ -98,7 +99,7 @@ export class SideNavInnerToolbarComponent implements OnInit {
 }
 
 @NgModule({
-  imports: [ SideNavigationMenuModule, DxDrawerModule, HeaderModule, DxToolbarModule, DxScrollViewModule, CommonModule ],
+  imports: [ SideNavigationMenuModule, DxDrawerModule, DxSelectBoxModule, HeaderModule, DxToolbarModule, DxScrollViewModule, CommonModule ],
   exports: [ SideNavInnerToolbarComponent ],
   declarations: [ SideNavInnerToolbarComponent ]
 })

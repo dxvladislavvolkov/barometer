@@ -1,12 +1,17 @@
 const simpleGit = require('simple-git');
 const async = require('async');
 const Octokit = require('@octokit/rest');
+const fs = require('fs');
+const path = require('path');
 const octokit = new Octokit ();
-const workingDirecotory = 'sandbox/DevExtreme';
-const git = simpleGit(workingDirecotory);
+
+const GO_DEEPER = false;
 
 const repoUrl = 'https://github.com/DevExpress/DevExtreme';
 const [ repoOwner, repoName ] = repoUrl.replace('https://github.com/', '').split('/');
+
+const workingDirecotory = `sandbox/${repoName}`;
+const git = simpleGit(workingDirecotory);
 
 const getPullsByPage = (page) => {
     return octokit.search.issuesAndPullRequests({
@@ -61,8 +66,58 @@ module.exports = (withFixes) => {
                         if(!files[fileName]) {
                             files[fileName] = [];
                         }
+        getPulls().then((pullsRegistry) => {
+            git.log({
+                '--after': '2019-01-01 00:00',
+                '--before': endDate
+            }, (_, commits) => {
+                async.each([commits.all[1]], (commit, callback) => {
+                    const parseTitle = commit.message.match(/\(#(\d+)\)/);
+                    const prId = parseTitle && parseTitle[1];
+                    const pullData = pullsRegistry[prId];
+                    let pull;
 
-                        const fileCommits = files[fileName];
+                    if(pullData) {
+                        pull = {
+                            labels: pullData.labels.map(label => label.name),
+                            title: pullData.title,
+                            body: pullData.body
+                        };
+                    }
+                    
+                    git.show([ commit.hash, '--unified=0' ], (_, raw) => {
+                        const rawCommitFiles = raw.split('diff --git a/').splice(1);
+                        rawCommitFiles.forEach((rawFileChanges) => {
+                            const fileName = rawFileChanges.substr(0, rawFileChanges.indexOf(' '));
+                            if(!files[fileName]) {
+                                files[fileName] = [];
+                            }
+
+                            if(GO_DEEPER) {
+                                fs.readFile(path.join(workingDirecotory, fileName), "utf8", (err, fileContent) => {
+                                    const fileChangesInfo = {
+                                        fileName,
+                                        fileContent,
+                                        changes: rawFileChanges.split(/^@@\s+-/m).splice(1).map((rawBlock) => {
+                                            const [ rawPositions, rawChanges ] = rawBlock.split(/ @@ [^\n]+\n/m);
+                                            const [, deletionPos, deletionLength, additionPos, additionLength ] = rawPositions.match(/^(\d+),?(\d*)\s+\+(\d+),?(\d*)$/);
+            
+                                            const changesList = rawChanges.split(/\n/m);
+                                            return {
+                                                deletionPos: ~~deletionPos,
+                                                deletionLength: deletionLength ? ~~deletionLength : 1,
+                                                additionPos: ~~additionPos,
+                                                additionLength: additionLength ? ~~additionLength : 1,
+                                                additions: changesList.filter(line => line.match(/^\+[^+]/)).map(line => line.substr(1)),
+                                                deletions: changesList.filter(line => line.match(/^\-[^-]/)).map(line => line.substr(1))
+                                            };
+                                        })
+                                    };
+
+                                    // TODO: process by Ilya
+                                });
+                            } else {
+                                const fileCommits = files[fileName];
 
                         const additions = rawFileChanges.match(/^\+[^+]/gm);
                         const deleteons = rawFileChanges.match(/^\-[^-]/gm);
@@ -88,6 +143,10 @@ module.exports = (withFixes) => {
                                 hash: commit.hash
                             });
                         }
+                            }
+                        });
+                        callback();
+
                     });
                 }, () => {
                     resolve(files);

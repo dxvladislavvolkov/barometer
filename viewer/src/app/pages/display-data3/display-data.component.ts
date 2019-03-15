@@ -87,21 +87,14 @@ export class DisplayDataComponent {
       dataFieldsDisplayMode: "splitPanes",
       alternateDataFields: false
     });
-
-    setTimeout(() => {
-        var dataSource = this.pivotGrid.instance.getDataSource();
-        dataSource.expandHeaderItem('row', ['North America']);
-        dataSource.expandHeaderItem('column', [2013]);
-    }, 0);
   }
-
   
   customizeTooltip(args) {
     return {
       html: args.seriesName + " | Total<div class='currency'>" + args.valueText + "</div>"
     };
   }
-  
+
   slideChanged(args) {
     this.dataSource.filter(["totalCommits", ">", args.value]);
     this.dataSource.reload();

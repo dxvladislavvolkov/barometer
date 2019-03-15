@@ -9,3 +9,12 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+.repo-selector .dx-selectbox {
+  margin-left: 40px;
+  width: 300px;
+  .screen-x-small & {
+    margin-left: 0;
+    width: 150px;
+  }
+}
