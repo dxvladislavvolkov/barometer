@@ -161,7 +161,7 @@ export class DisplayDataComponent {
 
 
       cellElement.addEventListener("click", () => {
-        window.open(`https://github.com/angular/angular/commits/19_1/${cell.rowPath.join('/')}`, '_blank')
+        window.open(`https://github.com/DevExpress/DevExtreme/commits/19_1/${cell.rowPath.join('/')}`, '_blank')
       });
     }
   }

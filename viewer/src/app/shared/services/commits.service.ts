@@ -9,6 +9,7 @@ export interface CommitInfo {
     date: string;
     additions: number;
     deleteons: number;
+    type: string;
 }
 
 @Injectable()
