@@ -5,7 +5,6 @@ import devextremeData from '../../data/devextremeData.json';
 import angularData from '../../data/angularData.json';
 import devextremeAngularData from '../../data/devextremeAngularData.json';
 import testcafeData from '../../data/testcafeData.json';
-import devextremeReactiveData from '../../data/devextremeReactiveData.json';
 
 export interface CommitsData {
     [key: string]: CommitInfo[];
@@ -25,7 +24,7 @@ export class Service {
     commitDataChange: Subject<any> = new Subject<any>();
 
     constructor(private http: HttpClient) {
-        this.repoName = 'DevExtreme';
+        this.repoName = 'DevExpress/DevExtreme';
         this.commitData = devextremeData;
     }
 
@@ -43,10 +42,6 @@ export class Service {
             case 'DevExpress/devextreme-angular':
                 this.commitData = devextremeAngularData;
                 break;
-
-            case 'DevExpress/devextreme-reactive':
-                this.commitData = devextremeReactiveData;
-                break;
             
             case 'DevExpress/testcafe':
                 this.commitData = testcafeData;
@@ -61,6 +56,7 @@ export class Service {
     }
     
     getCommits() {
-        return this.commitData;
+        debugger;
+        return devextremeData;
     }
 }

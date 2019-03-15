@@ -27,7 +27,6 @@ export class HeaderComponent {
   repos: string[] = [
     'DevExpress/DevExtreme',
     'DevExpress/devextreme-angular',
-    'DevExpress/devextreme-reactive',
     'DevExpress/testcafe',
     'angular/angular'
   ];
