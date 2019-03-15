@@ -14,21 +14,12 @@
         <dxi-item
             location="before"
             widget="dxSelectBox"
-            [options]="{
-                width: 200,
-                items: repos,
-                value: repos[0],
-                onValueChanged: selectRepo
-            }">
-        </dxi-item>
-        <dxi-item
-            location="before"
-            widget="dxSelectBox"
             cssClass="repo-selector"
             [options]="{
-                items: ['DevExpress/DevExtreme', 'angular/angular'],
+                items: repos,
                 stylingMode: 'outlined',
-                value: 'DevExpress/DevExtreme'
+                value: repos[0],
+                onValueChanged: selectRepo
             }">
         </dxi-item>
     </dx-toolbar>

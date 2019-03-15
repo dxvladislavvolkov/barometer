@@ -24,7 +24,13 @@ export class HeaderComponent {
   @Input()
   title: string;
 
-  repos: string[] = ['DevExtreme', 'Devextreme angular', 'Angular'];
+  repos: string[] = [
+    'DevExpress/DevExtreme',
+    'DevExpress/devextreme-angular',
+    'DevExpress/devextreme-reactive',
+    'DevExpress/testcafe',
+    'angular/angular'
+  ];
 
   userMenuItems = [{
     text: 'Profile',
