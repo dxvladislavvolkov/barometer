@@ -2,17 +2,11 @@ import { Component, ViewChild } from '@angular/core';
 import { Service, CommitInfo } from '../../shared/services/commits.service';
 import DataSource from "devextreme/ui/pivot_grid/data_source";
 
-import {
-  DxPivotGridComponent,
-  DxChartComponent } from 'devextreme-angular';
-
 @Component({
   templateUrl: 'display-data.component.html'
 })
 
 export class DisplayDataComponent {
-  @ViewChild(DxPivotGridComponent) pivotGrid: DxPivotGridComponent;
-  @ViewChild(DxChartComponent) chart: DxChartComponent;
 
   dataSource: DataSource;
   minValue: number;
@@ -79,13 +73,6 @@ export class DisplayDataComponent {
         store: dataItems,
         filter: ["totalCommits", ">", this.sliderValue],
       });
-    });
-  }
-
-  ngAfterViewInit() {
-    this.pivotGrid.instance.bindChart(this.chart.instance, {
-      dataFieldsDisplayMode: "splitPanes",
-      alternateDataFields: false
     });
   }
   
