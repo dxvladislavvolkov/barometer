@@ -1,5 +1,6 @@
 .content {
   line-height: 1.5;
+  padding: 20px;
 
   h2 {
     font-size: 30px;
@@ -51,3 +52,23 @@ $side-panel-min-width: 60px;
   padding: 3px 3px;
 }
 
+.custom-height-slider {
+  height: 75px;
+}
+
+.dx-field {
+  margin-bottom: 0px;
+}
+
+.dx-field .dx-slider {
+  flex: 1;
+}
+
+.dx-field .dx-field-label {
+  width: 150px;
+}
+
+
+.dx-field .dx-field-value {
+  width: calc(100% - 150px) !important;
+}

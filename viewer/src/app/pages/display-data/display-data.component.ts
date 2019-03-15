@@ -3,7 +3,6 @@ import { Service, CommitInfo } from '../../shared/services/commits.service';
 
 import DataSource from "devextreme/ui/pivot_grid/data_source";
 
-
 import {
   DxPivotGridComponent,
   DxChartComponent
@@ -20,6 +19,11 @@ export class DisplayDataComponent {
   dataSource: any;
   minValue: number;
   maxValue: number;
+
+  startDate: Date;
+  endDate: Date;
+  minDate: Date = new Date();
+  maxDate: Date = new Date();
 
   sliderValue = 30;
 
@@ -51,8 +55,8 @@ export class DisplayDataComponent {
       this.minValue = 0;
       this.maxValue = 600;
 
-      // this.startDate = new Date(Math.min.apply(null, res.map(item => new Date(item.date))));
-      // this.endDate = new Date(Math.max.apply(null, res.map(item => new Date(item.date))));
+      this.startDate = new Date(Math.min.apply(null, dataItems.map(item => new Date(item.date))));
+      this.endDate = new Date(Math.max.apply(null, dataItems.map(item => new Date(item.date))));
 
       const fields = [];
       for (let i = 1; i < maxIndex; i++) {
@@ -83,10 +87,28 @@ export class DisplayDataComponent {
           commits: 1,
           changes: item.additions + item.deleteons
         }, item)),
-        filter: ["totalCommits", ">", this.sliderValue]
+        filter: this.dataFilter
       });
     });
   }
+
+  get dataFilter() {
+    return [
+      [ "totalCommits", ">", this.sliderValue ],
+      "and",
+      [
+          [ "date", "<", this.maxDate ],
+          "and",
+          [ "date", ">", this.minDate ]
+      ]
+    ]
+  }
+
+  onDateChanged = (e) => {
+    this.minDate = new Date(e.value[0]);
+    this.maxDate = new Date(e.value[1]);
+    this.updateFilter();
+}
 
   ngAfterViewInit() {
     this.pivotGrid.instance.bindChart(this.chart.instance, {
@@ -101,8 +123,8 @@ export class DisplayDataComponent {
     };
   }
 
-  slideChanged(args) {
-    this.dataSource.filter(["totalCommits", ">", args.value]);
+  updateFilter() {
+    this.dataSource.filter(this.dataFilter);
     this.dataSource.reload();
   }
 
