@@ -25,6 +25,9 @@ export class DisplayDataComponent {
   minDate: Date = new Date();
   maxDate: Date = new Date();
 
+  tags: string[];
+  selectedTags: string[] = [];
+
   sliderValue = 30;
 
   constructor(service: Service) {
@@ -57,6 +60,10 @@ export class DisplayDataComponent {
 
       this.startDate = new Date(Math.min.apply(null, dataItems.map(item => new Date(item.date))));
       this.endDate = new Date(Math.max.apply(null, dataItems.map(item => new Date(item.date))));
+      this.tags = dataItems.reduce((acc, item) => {
+        if (acc.indexOf(item.type) === -1) acc.push(item.type);
+        return acc;
+      }, []);
 
       const fields = [];
       for (let i = 1; i < maxIndex; i++) {
@@ -93,22 +100,37 @@ export class DisplayDataComponent {
   }
 
   get dataFilter() {
-    return [
-      [ "totalCommits", ">", this.sliderValue ],
+    const res = [
+      ["totalCommits", ">", this.sliderValue],
       "and",
       [
-          [ "date", "<", this.maxDate ],
-          "and",
-          [ "date", ">", this.minDate ]
+        ["date", "<", this.maxDate],
+        "and",
+        ["date", ">", this.minDate]
       ]
-    ]
+    ];
+
+    const tgs = this.selectedTags.length ? this.selectedTags : this.tags;
+    if (tgs.length === 1) {
+      res.push("and", ["type", "=", tgs[0]])
+    } else if (tgs.length > 1) {
+      const orTags: any[] = [["type", "=", tgs[0]]];
+
+      for (let i = 1; i < tgs.length; i++) {
+        orTags.push("or", ["type", "=", tgs[i]]);
+      }
+
+      res.push("and", orTags);
+    }
+
+    return res;
   }
 
   onDateChanged = (e) => {
     this.minDate = new Date(e.value[0]);
     this.maxDate = new Date(e.value[1]);
     this.updateFilter();
-}
+  }
 
   ngAfterViewInit() {
     this.pivotGrid.instance.bindChart(this.chart.instance, {
@@ -124,8 +146,10 @@ export class DisplayDataComponent {
   }
 
   updateFilter() {
-    this.dataSource.filter(this.dataFilter);
-    this.dataSource.reload();
+    if (this.dataSource) {
+      this.dataSource.filter(this.dataFilter);
+      this.dataSource.reload();
+    }
   }
 
   cellPrepared(args) {

@@ -18,6 +18,12 @@
             </dx-range-selector>
         </div>
     </div>
+    <div class="dx-field custom-height-slider">
+        <div class="dx-field-label">Type</div>
+        <div class="dx-field-value">
+                <dx-tag-box [items]="tags" [(value)]="selectedTags" (onValueChanged)="updateFilter()"></dx-tag-box>
+        </div>
+    </div>
 </div>
 
 

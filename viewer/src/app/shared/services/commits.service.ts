@@ -16,6 +16,6 @@ export class Service {
     constructor(private http: HttpClient) { }
     
     getCommits() {
-        return this.http.get<CommitsData>('http://172.22.9.103:1234/getdata?withfixes=true');
+        return this.http.get<CommitsData>('http://172.22.9.103:1234/getdata');
     }
 }
