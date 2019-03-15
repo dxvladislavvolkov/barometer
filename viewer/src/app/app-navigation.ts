@@ -1,12 +1,12 @@
 export const navigation = [
   {
-    text: 'Hierarchical',
+    text: 'Absolute values',
     path: '/home',
-    icon: 'fas fa-stream'
+    icon: 'fas fa-plus'
   },
   {
-    text: 'Plain',
+    text: 'Percentage',
     path: '/home3',
-    icon: 'fas fa-bars'
+    icon: 'fas fa-percentage'
   },
 ];
