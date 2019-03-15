@@ -10,6 +10,7 @@ interface IChunk {
 interface IBlockChange {
     startDelta: number;
     endDelta: number;
+    isDead?: boolean;
 }
 
 function countOccurences(text: string, substring: string) {
@@ -91,69 +92,70 @@ class FileBlocksTracker {
         this._blocks = blocks.sort((a, b) => a.startLine - b.startLine);
     }
 
-    public applyChunks(chunks: IChunk[]): IBlockChange[] {
-        const result: IBlockChange[] = [];
+    public applyChunks(chunk: IChunk): IBlockChange {
         let curBlockIndex = 0;
         let curBlock = this._blocks[curBlockIndex];
 
-        for (const chunk of chunks) {
+        const prevChunkLength = chunk.deletedLines.length;
+        const newChunkLength = chunk.addedLines.length;
 
-            const prevChunkLength = chunk.deletedLines.length;
-            const newChunkLength = chunk.addedLines.length;
+        if (chunk.start < curBlock.startLine) {
 
-            if (chunk.start < curBlock.startLine) {
+            if (chunk.start + prevChunkLength - 1 >= curBlock.startLine) {
 
-                if (chunk.start + prevChunkLength - 1 >= curBlock.startLine) {
-
-                    const newBlockStartline = findNewBlockStart(
-                        chunk.deletedLines,
-                        chunk.addedLines,
-                        curBlock.startLine - chunk.start
-                    ) + chunk.start;
-
-                    const startDelta = newBlockStartline - curBlock.startLine;
-
-                    // start boundary change
-                    result.push({
-                        startDelta,
-                        endDelta: newChunkLength - prevChunkLength
-                    });
-                } else {
-                    continue; // [OK] ignore pre-block change
-                }
-            }
-
-            if (chunk.start > curBlock.startLine) {
-
-                if(chunk.start > curBlock.endLine) {
-                    continue; // [OK] ignore post-block change
+                if(chunk.start + prevChunkLength >= curBlock.endLine) {
+                    // [OK] dead block
+                    return {
+                        startDelta: NaN,
+                        endDelta: NaN,
+                        isDead: true
+                    }
                 }
 
-                if (chunk.start + prevChunkLength - 1 < curBlock.endLine) {
-                    // inline changes
-                    result.push(
-                        {
-                            startDelta: chunk.newStart - chunk.start,
-                            endDelta: newChunkLength - prevChunkLength
-                        }
-                    );
-                } else {
-                    // end boundary change
-                    const newBlockEndLine = findNewBlockEnd(
-                        chunk.deletedLines,
-                        chunk.addedLines,
-                        curBlock.endLine - chunk.start
-                    ) + chunk.start;
+                const newBlockStartline = findNewBlockStart(
+                    chunk.deletedLines,
+                    chunk.addedLines,
+                    curBlock.startLine - chunk.start
+                ) + chunk.start;
 
-                    result.push({
-                        startDelta: 0,
-                        endDelta: newBlockEndLine - curBlock.endLine
-                    });
-                }
+                const startDelta = newBlockStartline - curBlock.startLine;
+
+                // start boundary change
+                return{
+                    startDelta,
+                    endDelta: newChunkLength - prevChunkLength
+                };
+            } else {
+                return; // [OK] ignore pre-block change
             }
         }
 
-        return result;
+        if (chunk.start > curBlock.startLine) {
+
+            if(chunk.start > curBlock.endLine) {
+                return; // [OK] ignore post-block change
+            }
+
+            if (chunk.start + prevChunkLength - 1 < curBlock.endLine) {
+                // inline changes
+                return {
+                    startDelta: chunk.newStart - chunk.start,
+                    endDelta: newChunkLength - prevChunkLength
+                };
+            } else {
+                // end boundary change
+                const newBlockEndLine = findNewBlockEnd(
+                    chunk.deletedLines,
+                    chunk.addedLines,
+                    curBlock.endLine - chunk.start
+                ) + chunk.start;
+
+                return {
+                    startDelta: 0,
+                    endDelta: newBlockEndLine - curBlock.endLine
+                };
+            }
+        }
     }
 
     public applyPatch(fileChunks: IChunk[]) {
