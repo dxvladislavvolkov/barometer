@@ -7,14 +7,7 @@ import {
   DxChartComponent } from 'devextreme-angular';
 
 @Component({
-  templateUrl: 'display-data.component.html',
-  styles: [
-    `
-      :host ::ng-deep .dx-pivotgrid .dx-word-wrap .dx-pivotgrid-collapsed > span {
-        display: none;
-      }
-    `
-  ]
+  templateUrl: 'display-data.component.html'
 })
 
 export class DisplayDataComponent {
@@ -25,6 +18,8 @@ export class DisplayDataComponent {
   _commitDataSubscription: any;
   minValue: number;
   maxValue: number;
+
+  sliderValue = 50;
 
   constructor(service: Service) {
     this.prepareData(service.getCommits());
@@ -41,15 +36,27 @@ export class DisplayDataComponent {
       fileNames.forEach((fileName: string) => {
         const commits = data[fileName];
 
-        dataItems.push(...commits.map(item => Object.assign({
-          ...item,
-          totalCommits: commits.length,
-          folder: fileName
-        })));
+        dataItems.push(...commits.map(item => {
+          const prevCommits = commits.filter(itm => {
+            const itemDate = new Date(item.date);
+            const quarterDate = new Date(itemDate);
+            quarterDate.setMonth(quarterDate.getMonth() - 3);
+            const commitDate = new Date(itm.date);
+            return itemDate > commitDate && commitDate > quarterDate;
+          });
+          const totalFixes = prevCommits.filter(itm => itm.type === 'fix').length;
+
+          return {
+            ...item,
+            totalCommits: commits.length,
+            relation: prevCommits.length ? Math.round(totalFixes / prevCommits.length * 100) : 0,
+            folder: fileName
+          };
+        }));
       })
 
-      this.minValue = 0;
-      this.maxValue = 30;
+      this.minValue = 20;
+      this.maxValue = 100;
  
       const fields = [];
       fields.push({
@@ -61,24 +68,24 @@ export class DisplayDataComponent {
         { area: "column", dataField: "date", dataType: "date", groupInterval: "year" },
         { area: "column", dataField: "date", dataType: "date", groupInterval: "quarter" },
         { area: "column", dataField: "date", dataType: "date", groupInterval: "month" },
-        { area: "column", dataField: "date", dataType: "date", groupInterval: "day" },
 
         {
           caption: 'Commits',
-          dataField: 'commits',
+          dataField: 'relation',
           dataType: 'number',
-          summaryType: "sum",
+          summaryType: "avg",
+          format: {
+            type: "decimal",
+            precision: 2
+          },
           area: 'data'
         }
       );
 
       this.dataSource = new DataSource({
         fields,
-        store: dataItems.map(item => Object.assign({
-          commits: 1,
-          changes: item.additions + item.deleteons
-        }, item)),
-        filter: ["totalCommits", ">", 50],
+        store: dataItems,
+        filter: ["totalCommits", ">", this.sliderValue],
       });
   }
 
