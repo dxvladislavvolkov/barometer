@@ -351,7 +351,7 @@ describe("file-blocks-tracker", () => {
             expect(actual).toEqual([]);
         });
 
-        it("detects moved block start", () => {
+        it("detects moved block start (neg delta)", () => {
             const blocks: IBlock[] = [
                 {
                     name: undefined,
@@ -361,6 +361,9 @@ describe("file-blocks-tracker", () => {
             ];
 
             const deletedLines = [
+                /* line 1 */
+                /* line 2 */
+                /* line 3 */
                 "const x1 = 1;",
                 "const x2 = 1;",
                 "const x3 = 1;",
@@ -368,18 +371,25 @@ describe("file-blocks-tracker", () => {
                 "var t = { a: function() {",
                 "const y1 = 1;",
                 "const y2 = 1;"
+                /* line 11 */
+                /* } */
             ];
 
             const addedLines = [
+                /* line 1 */
+                /* line 2 */
+                /* line 3 */
                 "const b1 = 1;",
                 "const b2 = 1;",
-                "var t = { a: function() {",
-                "const z1 = 1;",
+                "var t = {",
+                "a: function() {",
                 "const z2 = 1;",
                 "const z3 = 1;",
                 "const z4 = 1;",
                 "const z5 = 1;",
                 "const z6 = 1;"
+                /* line 11 */
+                /* } */
             ];
 
             const chunks: IChunk[] = [
@@ -395,7 +405,173 @@ describe("file-blocks-tracker", () => {
 
             const expected: IBlockChange[] = [
                 {
-                    startDelta: -2,
+                    startDelta: -1,
+                    endDelta: 2
+                }
+            ];
+
+            expect(actual).toEqual(expected);
+        });
+
+        it("detects moved block start (neg delta)", () => {
+            const blocks: IBlock[] = [
+                {
+                    name: undefined,
+                    startLine: 8,
+                    endLine: 12
+                }
+            ];
+
+            const deletedLines = [
+                /* line 1 */
+                /* line 2 */
+                /* line 3 */
+                "const x1 = 1;",
+                "const x2 = 1;",
+                "const x3 = 1;",
+                "const x4 = 1;",
+                "var t = { a: function() {",
+                "const y1 = 1;",
+                "const y2 = 1;"
+                /* line 11 */
+                /* } */
+            ];
+
+            const addedLines = [
+                /* line 1 */
+                /* line 2 */
+                /* line 3 */
+                "const b1 = 1;",
+                "const b2 = 1;",
+                "const z2 = 1;",
+                "const z3 = 1;",
+                "const z4 = 1;",
+                "const z5 = 1;",
+                "var t = {",
+                "a: function() {",
+                "const z6 = 1;"
+                /* line 11 */
+                /* } */
+            ];
+
+            const chunks: IChunk[] = [
+                {
+                    start: 4,
+                    newStart: 4,
+                    deletedLines,
+                    addedLines
+                }
+            ];
+
+            const actual = new FileBlocksTracker(blocks).applyChunks(chunks);
+
+            const expected: IBlockChange[] = [
+                {
+                    startDelta: 3,
+                    endDelta: 2
+                }
+            ];
+
+            expect(actual).toEqual(expected);
+        });
+
+        it("detects moved block end (neg delta)", () => {
+            const blocks: IBlock[] = [
+                {
+                    name: undefined,
+                    startLine: 8,
+                    endLine: 12
+                }
+            ];
+
+            const deletedLines = [
+                "const x1 = 1;",
+                "const x2 = 1;",
+                "}, a: 1}",
+                "const x3 = 1;",
+                "const x4 = 1;",
+                "const y1 = 1;",
+                "const y2 = 1;"
+            ];
+
+            const addedLines = [
+                "},",
+                "a: 1}",
+                "const b1 = 1;",
+                "const z1 = 1;",
+                "const z2 = 1;",
+                "const z3 = 1;",
+                "const z4 = 1;",
+                "const z5 = 1;",
+                "const z6 = 1;"
+            ];
+
+            const chunks: IChunk[] = [
+                {
+                    start: 10,
+                    newStart: 10,
+                    deletedLines,
+                    addedLines
+                }
+            ];
+
+            const actual = new FileBlocksTracker(blocks).applyChunks(chunks);
+
+            const expected: IBlockChange[] = [
+                {
+                    startDelta: 0,
+                    endDelta: -2
+                }
+            ];
+
+            expect(actual).toEqual(expected);
+        });
+
+        it("detects moved block end (pos delta)", () => {
+            const blocks: IBlock[] = [
+                {
+                    name: undefined,
+                    startLine: 8,
+                    endLine: 12
+                }
+            ];
+
+            const deletedLines = [
+                "const x1 = 1;",
+                "const x2 = 1;",
+                "}, a: 1}",
+                "const x3 = 1;",
+                "const x4 = 1;",
+                "const y1 = 1;",
+                "const y2 = 1;"
+            ];
+
+            const addedLines = [
+                "const b1 = 1;",
+                "const z1 = 1;",
+                "const z2 = 1;",
+                "const z3 = 1;",
+                "const z4 = 1;",
+                "const z5 = 1;",
+                "},",
+                "a: 1}",
+                "const z6 = 1;"
+            ];
+
+            const chunks: IChunk[] = [
+                {
+                    start: 10,
+                    newStart: 10,
+                    deletedLines,
+                    addedLines
+                }
+            ];
+
+            const actual = new FileBlocksTracker(blocks).applyChunks(chunks);
+
+            const expected: IBlockChange[] = [
+                {
+                    startDelta: 0,
                     endDelta: 4
                 }
             ];
@@ -463,7 +639,7 @@ describe("file-blocks-tracker", () => {
             expect(actual).toEqual(expected);
         });
 
-        it("throughs away pre-block change", () => {
+        it("throughs away post-block change", () => {
             const blocks: IBlock[] = [
                 {
                     name: undefined,

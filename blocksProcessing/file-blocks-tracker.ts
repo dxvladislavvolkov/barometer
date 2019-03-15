@@ -105,25 +105,51 @@ class FileBlocksTracker {
 
                 if (chunk.start + prevChunkLength - 1 >= curBlock.startLine) {
 
-                    const newBlockStartline = chunk.start + findNewBlockStart(chunk.deletedLines, chunk.addedLines, curBlock.startLine - chunk.start);
+                    const newBlockStartline = findNewBlockStart(
+                        chunk.deletedLines,
+                        chunk.addedLines,
+                        curBlock.startLine - chunk.start
+                    ) + chunk.start;
+
                     const startDelta = newBlockStartline - curBlock.startLine;
 
+                    // start boundary change
                     result.push({
                         startDelta,
-                        endDelta: newChunkLength - prevChunkLength - startDelta
+                        endDelta: newChunkLength - prevChunkLength
                     });
                 } else {
-                    // [OK] ignore pre-block change
+                    continue; // [OK] ignore pre-block change
                 }
             }
 
-            if (chunk.start > curBlock.startLine && chunk.start + prevChunkLength - 1 < curBlock.endLine) {
-                result.push(
-                    {
-                        startDelta: chunk.newStart - chunk.start,
-                        endDelta: newChunkLength - prevChunkLength
-                    }
-                );
+            if (chunk.start > curBlock.startLine) {
+
+                if(chunk.start > curBlock.endLine) {
+                    continue; // [OK] ignore post-block change
+                }
+
+                if (chunk.start + prevChunkLength - 1 < curBlock.endLine) {
+                    // inline changes
+                    result.push(
+                        {
+                            startDelta: chunk.newStart - chunk.start,
+                            endDelta: newChunkLength - prevChunkLength
+                        }
+                    );
+                } else {
+                    // end boundary change
+                    const newBlockEndLine = findNewBlockEnd(
+                        chunk.deletedLines,
+                        chunk.addedLines,
+                        curBlock.endLine - chunk.start
+                    ) + chunk.start;
+
+                    result.push({
+                        startDelta: 0,
+                        endDelta: newBlockEndLine - curBlock.endLine
+                    });
+                }
             }
         }
 
